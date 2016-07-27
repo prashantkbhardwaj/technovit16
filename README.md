@@ -2,6 +2,6 @@
 ___
 Developers:
 
-[Prashant Bharadwaj](https://github.com/prashantkbhardwaj)
+[Prashant Bhardwaj](https://github.com/prashantkbhardwaj)
 
 [Kumar Shubham](https://github.com/krshubham)
