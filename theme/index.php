@@ -73,7 +73,7 @@
 					    $current_user = "";  
 					    $first_name = "";
 					    $name_title = "";
-					    $view = "<a href='login/index.php'>Login/Signup</a>";        
+					    $view = "<a href='login.php'>Login/Signup</a>";        
 					}  
 				?>
 				<?php echo "$view";?>
