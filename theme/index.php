@@ -73,9 +73,10 @@
 					    $current_user = "";  
 					    $first_name = "";
 					    $name_title = "";
-					    $view = "<a href='login/index.php'>Login/Signup</a>";        
+					    $view = "<a href='login.php'>Login/Signup</a>";        
 					}  
 				?>
+				<?php echo "$view";?>
           	</li>
             <li class="active"><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
@@ -104,7 +105,7 @@
 			<div class="content">
 				<div id="large-header" class="large-header">
 					<canvas id="demo-canvas" ></canvas>
-					<h1 class="main-title" style="padding-bottom:200px;"><span class="thin"></span></h1>
+					<h1 class="main-title" style="padding-bottom:200px;">TechnoVIT <span class="thin">2016</span></h1>
 				</div>
 				
 				
