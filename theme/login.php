@@ -4,7 +4,7 @@
 <?php require_once("/includes/validation_functions.php"); ?>
 <?php
 if (logged_in()) {
-	redirect_to ("../index.php");
+	redirect_to ("../index.html");
 }
 ?>
 <?php
@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
 
 			$_SESSION["user_id"] = $found_user["id"];
 			$_SESSION["username"] = $found_user["username"];
-			redirect_to("../index.php");
+			redirect_to("../index.html");
 		} else {
 			$_SESSION["message"] = "Hub ID/password not found.";
 		}
@@ -111,7 +111,7 @@ if(isset($_POST['signup'])){
 	<main>
 		<div class="container" id="login">
 			<h3 class="page-head-title">Login</h3>
-			<form class="col s6 offset-s6" action="login.php"method="POST">
+			<form class="col s6 offset-s6" action="login.php" method="POST">
 				<div class="row">
 					<div class="input-field col s6 offset-s3">
 						<label for="Username">Username:</label>
@@ -131,7 +131,7 @@ if(isset($_POST['signup'])){
 		</div>
 		<div class="container" id="signup" style="display:none;">
 			<h3 style="text-align:center;">Signup</h3>
-			<form class="col s6 offset-s6" action="signup.php" method="POST">
+			<form class="col s6 offset-s6" action="login.php" method="POST">
 				<div class="row">
 					<div class="input-field col s6 offset-s3">
 						<label for="name">
