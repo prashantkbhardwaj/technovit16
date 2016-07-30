@@ -8,7 +8,5 @@ if (isset($_COOKIE[session_name()])) {
 }
                
 session_destroy();
-?>
-<?php
-	redirect_to("../index.html");
+redirect_to("../index.html");
 ?>
