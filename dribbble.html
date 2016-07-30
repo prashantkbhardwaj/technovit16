@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Technovit 16</title>
+</head>
+<style type="text/css">
+	.row{
+		margin-top: 3em;
+	}
+	.card{
+		margin-left: 2em;
+	}
+</style>
+<body>
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">Technovit</a>
+			<a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li>Kumar Shubham</li><!-- Enter the name of the user here-->
+				<li><a href="#">Log Out</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<!--Main website content goes here-->
+		<div class="row">
+			<div class="col s4">
+				<div class="row">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/sample.jpg" >
+							<span class="card-title">Some event</span>
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of information.
+								I am convenient because I require little markup to use effectively.
+							</p>
+						</div>
+						<div class="card-action">
+							<a href="#modal1" class="waves-effect waves-light btn modal-trigger">
+								More info
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="modal1" class="modal bottom-sheet">
+		<div class="modal-content">
+		<h4>This is some great event header</h4>
+			<p>A bunch of text</p>
+		</div>
+		<div class="modal-footer">
+			<a href="#" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+		</div>
+	</div>
+	<ul id="slide-out" class="side-nav">
+		<li>
+			<div class="userView">
+				<img class="background" src="../assets/images/sample.jpg">
+				<a href="#"><img class="circle" src="../assets/images/sample.jpg"></a>
+				<a href="#"><span class="white-text name">Kumar Shubham</span></a>
+				<a href="#"><span class="white-text email">kumarshubham347@gmail.com</span></a>
+			</div>
+		</li>
+		<li>
+			<a href="#" class="waves-effect"><i class="material-icons">lock</i>Log Out</a></li>
+			<li><a class="subheader">Subheader</a></li>
+		</ul>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.modal-trigger').leanModal();
+		});
+	</script>
+	</html>
