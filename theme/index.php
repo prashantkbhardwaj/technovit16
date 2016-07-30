@@ -76,6 +76,7 @@
 					    $view = "<a href='login/index.php'>Login/Signup</a>";        
 					}  
 				?>
+				<?php echo "$view";?>
           	</li>
             <li class="active"><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
