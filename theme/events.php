@@ -157,14 +157,14 @@ Hello to the backend developers. Before unloading your php code. read the commen
 		<div class="modal-content">
 			<div align="center">
 				<!-- Name of the event over here-->
-				<h3>Codeslam</h3>
+				<h3>Sample</h3>
 			</div>
 			<ul class="collection with-header">
 				<li class="collection-header col"><h5>Event coordinators</h5></li>
 				<!-- Add the names and mobile numbers for event coordinators over here-->
 				<li class="collection-item">
-					<span>Kumar Shubham</span>
-					<span class="chip">9790717731</span>
+					<span>Prateek Singh</span>
+					<span class="chip">9790725069</span>
 				</li>
 				<li class="collection-item">
 					<span>Aman Saha</span>
@@ -191,7 +191,7 @@ Hello to the backend developers. Before unloading your php code. read the commen
 			</p>
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="waves-effect waves-light btn center-align">Register</button>	
+			<button type="button" class="waves-effect waves-light btn center-align">Register</button>
 		</div>
 	</div>
 	<!--Modal for the second event and so on-->
@@ -236,7 +236,7 @@ Hello to the backend developers. Before unloading your php code. read the commen
 			</p>
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="waves-effect waves-light btn center-align">Register</button>	
+			<button type="button" class="waves-effect waves-light btn center-align">Register</button>
 		</div>
 	</div>
 	<!--End of modal for event 2-->
@@ -282,7 +282,7 @@ Hello to the backend developers. Before unloading your php code. read the commen
 			</p>
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="waves-effect waves-light btn center-align">Register</button>	
+			<button type="button" class="waves-effect waves-light btn center-align">Register</button>
 		</div>
 	</div>
 	<!--End of modal for event 3-->
@@ -315,6 +315,6 @@ Hello to the backend developers. Before unloading your php code. read the commen
 
   				}); // end of document ready
 	})(jQuery); // end of jQuery name space
-	
+
 </script>
 </html>
