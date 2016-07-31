@@ -315,6 +315,6 @@ Hello to the backend developers. Before unloading your php code. read the commen
 
   				}); // end of document ready
 	})(jQuery); // end of jQuery name space
-
+	$('.chips').material_chip();
 </script>
 </html>
