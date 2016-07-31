@@ -1,7 +1,7 @@
 <?php
 define("DB_SERVER", "localhost");
 define("DB_USER", "root");
-define("DB_PASS", "");
+define("DB_PASS", "techno2480");
 define("DB_NAME", "vibrance");
 
 // Create connection
