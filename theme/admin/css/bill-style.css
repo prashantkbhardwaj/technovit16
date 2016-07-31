@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Yesteryear);
+body{
+	overflow: hidden;
+}
+.wrapper{
+	background-color: #a468ed;
+	margin-right: 48%;
+
+}
+
+.bill_heading{
+	margin-left: 5.2em;
+	font-family: 'Yesteryear', cursive;
+	font-size: 3em;
+	font-weight: 200;
+	margin-top: -0.5em;
+	margin-bottom: -1em;
+}
+.bill_heading1{
+	margin-left: 15em;
+	font-size: 1em;
+	font-weight: 200
+	margin-top: -0.5em;
+	margin-bottom: -1em
+}
+.bill_heading2{
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 1em;
+}
+
+.vib_logo{
+	width: 12rem;
+	height: 3em;
+	margin-right: 20em;
+}
+form{
+	font-size: 1.2em;
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+	margin-left: 1em;
+	
+}
+table {
+	border-collapse: collapse;
+	margin-top: 2em;
+}
+.data{
+	padding-right: 2em;
+}
+tbody{
+	padding-top: 0.5em;
+}
+td{
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+table tr{
+	margin-top: 2em;
+}
+.form_group{
+	margin-top: 1.5em;
+}
+label{
+	font-weight: 800;
+}
+.vit_logo{
+	width: 10em;
+	height: 4em;
+}
+.container{
+	margin-top: -2em;
+	display: block;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-bottom: -1em;
+	background-color: #ffffff;
+}
+#spacer{
+	height: 0.1em;
+}
