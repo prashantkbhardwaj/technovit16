@@ -24,6 +24,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/demo1.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/component1.css" />
 	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 
 
@@ -129,7 +131,7 @@
 	<!-- *****************************************************************************************************************
 	 SERVICE LOGOS
 	 ***************************************************************************************************************** -->
-	 <div id="service">
+	 <!-- <div id="service">
 	 	<div class="container">
 	 		<div class="row centered">
 	 			<div class="col-md-4">
@@ -151,9 +153,91 @@
 	 				<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
 	 			</div>		 				
 	 		</div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
-	 
+	 	</div>
+	 </div>
+	-->
+	<div class="demo-1">
+		<main>
+			<header class="codrops-header">
+				<h1>Schools.</h1>
+				<p>Scroll down to see all the schools.<p>
+
+				</header>
+				<div class="isolayer isolayer--scroll1 isolayer--shadow">
+					<ul class="grid grid--effect-flip">
+						<div align="center">
+							<h1>Schools</h1>
+						</div>
+						<li class="grid__item">
+							<a class="grid__link" href="https://dribbble.com/forefathers">
+								<img class="grid__img layer" src="img/11.png" alt="Canvas Dummy" />
+								<img class="grid__img layer" src="img/12.png" alt="Wireframe Dummy" />
+								<!-- <img class="grid__img layer" src="img/3.png" alt="01" /> -->
+								<img class="grid__img layer" src="img/13.png" />
+								<span class="grid__title">Mechanical</span>
+							</a>
+						</li>
+						<li class="grid__item">
+							<a class="grid__link" href="https://dribbble.com/JulienLavallee">
+								<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+								<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+								<img class="grid__img layer" src="img/Dribbble1/2_1.jpg" alt="021" />
+								<span class="grid__title">Julien Lavallee</span>
+							</a>
+						</li>
+						<li class="grid__item">
+							<a class="grid__link" href="https://dribbble.com/creativemints">
+								<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+								<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+								<img class="grid__img layer" src="img/Dribbble1/3.jpg" alt="03" />
+								<span class="grid__title">Mike | Creative Mints</span>
+							</a>
+						</li>
+						<li class="grid__item">
+							<a class="grid__link" href="https://dribbble.com/Radium">
+								<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+								<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+								<img class="grid__img layer" src="img/Dribbble1/4_2.jpg" alt="042" />
+								<span class="grid__title">Cosmin Capitanu</span>
+							</a>
+						</li>
+						<li class="grid__item">
+							<a class="grid__link" href="https://dribbble.com/forefathers">
+								<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+								<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+								<img class="grid__img layer" src="img/Dribbble1/1_1.jpg" alt="011" />
+								<span class="grid__title">Forefathers</span>
+							</a>
+						</li>
+						<li class="grid__item">
+							<a class="grid__link" href="https://dribbble.com/JulienLavallee">
+								<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+								<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+								<img class="grid__img layer" src="img/Dribbble1/2.jpg" alt="02" />
+								<span class="grid__title">Julien Lavallee</span>
+							</a>
+						</li>
+						<li class="grid__item">
+							<a class="grid__link" href="https://dribbble.com/creativemints">
+								<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+								<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+								<img class="grid__img layer" src="img/Dribbble1/3_1.jpg" alt="031" />
+								<span class="grid__title">Mike | Creative Mints</span>
+							</a>
+						</li>
+						<li class="grid__item">
+							<a class="grid__link" href="https://dribbble.com/Radium">
+								<img class="grid__img layer" src="img/canvas.png" alt="Canvas Dummy" />
+								<img class="grid__img layer" src="img/wireframe.png" alt="Wireframe Dummy" />
+								<img class="grid__img layer" src="img/Dribbble1/4.jpg" alt="04" />
+								<span class="grid__title">Cosmin Capitanu</span>
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</main>
+		</div>
 	<!-- *****************************************************************************************************************
 	 PORTFOLIO SECTION
 	 ***************************************************************************************************************** -->
@@ -506,5 +590,44 @@
 <script src="assets/js/EasePack.min.js"></script>
 <script src="assets/js/rAF.js"></script>
 <script src="assets/js/demo-1.js"></script>
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script src="assets/js/dynamics.min.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/animOnScroll.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+	(function() {
+		function getRandomInt(min, max) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		[].slice.call(document.querySelectorAll('.isolayer')).forEach(function(el) {
+			new IsoGrid(el, {
+				type : 'scrollable',
+				transform : 'translateX(-15vw) translateY(275px) rotateX(45deg) rotateZ(45deg)',
+				stackItemsAnimation : {
+					properties : function(pos) {
+						return {
+							translateZ: (pos+1) * 50,
+							rotateZ: getRandomInt(-3, 3)
+						};
+					},
+					options : function(pos, itemstotal) {
+						return {
+							type: dynamics.bezier,
+							duration: 500,
+							points: [{"x":0,"y":0,"cp":[{"x":0.2,"y":1}]},{"x":1,"y":1,"cp":[{"x":0.3,"y":1}]}],
+								//delay: (itemstotal-pos-1)*40
+							};
+						}
+					},
+					onGridLoaded : function() {
+						classie.add(document.body, 'grid-loaded');
+					}
+				});
+		});
+	})();
+</script>
 </body>
 </html>
