@@ -48,10 +48,10 @@ Hello to the backend developers. Before unloading your php code. read the commen
 						<div class="card">
 							<div class="card-image">
 								<img src="assets/img/sample.jpg" >
-								<span class="card-title">Some event</span>
+								<span class="card-title">15 Sep 2016</span>
 							</div>
-							<div class="card-action">
-								<a data-target="modal1" class="btn modal-trigger">More</a>
+							<div class="card-content">
+								<span class="chip">Codeslam</span>
 							</div>
 						</div>
 					</div>
@@ -65,8 +65,10 @@ Hello to the backend developers. Before unloading your php code. read the commen
 								<img src="assets/img/sample.jpg" >
 								<span class="card-title">Some event</span>
 							</div>
-							<div class="card-action">
-								<a data-target="modal1" class="btn modal-trigger">More</a>
+							<div class="card-content">
+								<span class="chip">
+									Some event
+								</span>
 							</div>
 						</div>
 					</div>
@@ -114,14 +116,16 @@ Hello to the backend developers. Before unloading your php code. read the commen
 								<img src="assets/img/sample.jpg" >
 								<span class="card-title">Some event</span>
 							</div>
-							<div class="card-action">
-								<a data-target="modal1" class="btn modal-trigger">More</a>
+							<div class="card-content">
+								<span class="chip">
+									Name of the event
+								</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</a>
-			<a data-target="event3" class="modal-trigger">
+			<a data-target="event2" class="modal-trigger">
 				<div class="col s12 m4">
 					<div class="row">
 						<div class="card">
@@ -129,8 +133,10 @@ Hello to the backend developers. Before unloading your php code. read the commen
 								<img src="assets/img/sample.jpg" >
 								<span class="card-title">Some event</span>
 							</div>
-							<div class="card-action">
-								<a data-target="modal1" class="btn modal-trigger">More</a>
+							<div class="card-content">
+								<span class="chip">
+									Name of the event
+								</span>
 							</div>
 						</div>
 					</div>
