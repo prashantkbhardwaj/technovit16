@@ -89,12 +89,58 @@ Hello to the backend developers. Before unloading your php code. read the commen
 			</a>
 		</div>
 		<!--//End of the main website content-->
+		<!-- Row 2-->
+		<div class="row">
+			<a data-target="event1" class="modal-trigger">
+				<div class="col s12 m4">
+					<div class="row">
+						<div class="card">
+							<div class="card-image">
+								<img src="assets/img/sample.jpg" >
+								<span class="card-title">Some event</span>
+							</div>
+							<div class="card-action">
+								<a data-target="modal1" class="btn modal-trigger">More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a data-target="event2" class="modal-trigger">
+				<div class="col s12 m4">
+					<div class="row">
+						<div class="card">
+							<div class="card-image">
+								<img src="assets/img/sample.jpg" >
+								<span class="card-title">Some event</span>
+							</div>
+							<div class="card-action">
+								<a data-target="modal1" class="btn modal-trigger">More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a data-target="event3" class="modal-trigger">
+				<div class="col s12 m4">
+					<div class="row">
+						<div class="card">
+							<div class="card-image">
+								<img src="assets/img/sample.jpg" >
+								<span class="card-title">Some event</span>
+							</div>
+							<div class="card-action">
+								<a data-target="modal1" class="btn modal-trigger">More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<!--End of row2-->
+
 	</div>
-	<!-- Row 2-->
-		
-	<!--End of row2-->
-
-
+	<!--End of the container-->
 	<!-- the modal window-->
 	<!-- Add the data from database
 	I am keeping only one modal once called the id of the event will be the key to fetch the data for the event from the database using ajax-->
