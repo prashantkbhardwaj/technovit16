@@ -1,3 +1,4 @@
+
 <!--
 Hello to the backend developers. Before unloading your php code. read the comments and choose the correct places for inputting data.
 -->
@@ -235,9 +236,11 @@ Hello to the backend developers. Before unloading your php code. read the commen
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		</div>
-		<div class="modal-footer">
-			<button type="button" class="waves-effect waves-light btn center-align">Register</button>
-		</div>
+		<form>
+			<div class="modal-footer">
+				<button type="button" class="waves-effect waves-light btn center-align">Register</button>
+			</div>
+		</form>
 	</div>
 	<!--End of modal for event 2-->
 	<!--Modal for the third event and so on-->
