@@ -146,7 +146,7 @@ a:focus {
   border-color: #00b3fe;
 }
 
-.dmbutton:hover,
+.dmbutton:hover,	
 .dmbutton:active,
 .dmbutton:focus{
 	color: #ffffff;
@@ -228,8 +228,7 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 40px;
 }
 
 #service i {
@@ -273,7 +272,7 @@ a:focus {
 .tpl6 .dmbutton
 {
 	display:inline-block;
-	margin:30px 5px 20px 5px;
+	margin:90px 5px 20px 5px;
 	font-size:13px;
 }
 
