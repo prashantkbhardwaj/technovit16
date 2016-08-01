@@ -229,7 +229,6 @@ a:focus {
 /* Services Wrap */
 #service {
 	margin-top: 40px;
-	margin-bottom: 80px;
 }
 
 #service i {
@@ -273,7 +272,7 @@ a:focus {
 .tpl6 .dmbutton
 {
 	display:inline-block;
-	margin:80px 5px 20px 5px;
+	margin:90px 5px 20px 5px;
 	font-size:13px;
 }
 
