@@ -48,10 +48,10 @@ Hello to the backend developers. Before unloading your php code. read the commen
 						<div class="card">
 							<div class="card-image">
 								<img src="assets/img/sample.jpg" >
-								<span class="card-title">Some event</span>
+								<span class="card-title">15 Sep 2016</span>
 							</div>
-							<div class="card-action">
-								<a data-target="modal1" class="btn modal-trigger">More</a>
+							<div class="card-content">
+								<span class="chip">Codeslam</span>
 							</div>
 						</div>
 					</div>
@@ -65,8 +65,10 @@ Hello to the backend developers. Before unloading your php code. read the commen
 								<img src="assets/img/sample.jpg" >
 								<span class="card-title">Some event</span>
 							</div>
-							<div class="card-action">
-								<a data-target="modal1" class="btn modal-trigger">More</a>
+							<div class="card-content">
+								<span class="chip">
+									Some event
+								</span>
 							</div>
 						</div>
 					</div>
@@ -114,14 +116,16 @@ Hello to the backend developers. Before unloading your php code. read the commen
 								<img src="assets/img/sample.jpg" >
 								<span class="card-title">Some event</span>
 							</div>
-							<div class="card-action">
-								<a data-target="modal1" class="btn modal-trigger">More</a>
+							<div class="card-content">
+								<span class="chip">
+									Name of the event
+								</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</a>
-			<a data-target="event3" class="modal-trigger">
+			<a data-target="event2" class="modal-trigger">
 				<div class="col s12 m4">
 					<div class="row">
 						<div class="card">
@@ -129,8 +133,10 @@ Hello to the backend developers. Before unloading your php code. read the commen
 								<img src="assets/img/sample.jpg" >
 								<span class="card-title">Some event</span>
 							</div>
-							<div class="card-action">
-								<a data-target="modal1" class="btn modal-trigger">More</a>
+							<div class="card-content">
+								<span class="chip">
+									Name of the event
+								</span>
 							</div>
 						</div>
 					</div>
@@ -151,14 +157,14 @@ Hello to the backend developers. Before unloading your php code. read the commen
 		<div class="modal-content">
 			<div align="center">
 				<!-- Name of the event over here-->
-				<h3>Codeslam</h3>
+				<h3>Sample</h3>
 			</div>
 			<ul class="collection with-header">
 				<li class="collection-header col"><h5>Event coordinators</h5></li>
 				<!-- Add the names and mobile numbers for event coordinators over here-->
 				<li class="collection-item">
-					<span>Kumar Shubham</span>
-					<span class="chip">9790717731</span>
+					<span>Prateek Singh</span>
+					<span class="chip">9790725069</span>
 				</li>
 				<li class="collection-item">
 					<span>Aman Saha</span>
@@ -185,7 +191,7 @@ Hello to the backend developers. Before unloading your php code. read the commen
 			</p>
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="waves-effect waves-light btn center-align">Register</button>	
+			<button type="button" class="waves-effect waves-light btn center-align">Register</button>
 		</div>
 	</div>
 	<!--Modal for the second event and so on-->
@@ -230,7 +236,7 @@ Hello to the backend developers. Before unloading your php code. read the commen
 			</p>
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="waves-effect waves-light btn center-align">Register</button>	
+			<button type="button" class="waves-effect waves-light btn center-align">Register</button>
 		</div>
 	</div>
 	<!--End of modal for event 2-->
@@ -276,7 +282,7 @@ Hello to the backend developers. Before unloading your php code. read the commen
 			</p>
 		</div>
 		<div class="modal-footer">
-			<button type="button" class="waves-effect waves-light btn center-align">Register</button>	
+			<button type="button" class="waves-effect waves-light btn center-align">Register</button>
 		</div>
 	</div>
 	<!--End of modal for event 3-->
@@ -309,6 +315,6 @@ Hello to the backend developers. Before unloading your php code. read the commen
 
   				}); // end of document ready
 	})(jQuery); // end of jQuery name space
-	
+	$('.chips').material_chip();
 </script>
 </html>

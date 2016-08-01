@@ -1,7 +1,7 @@
-<?php require_once("includes/session.php");?>
-<?php require_once("includes/db_connection.php");?>
-<?php require_once("includes/functions.php");?>
-<?php require_once("includes/validation_functions.php"); ?>
+<!-- <?php //require_once("includes/session.php");?>
+<?php //require_once("includes/db_connection.php");?>
+<?php //require_once("includes/functions.php");?>
+<?php //require_once("includes/validation_functions.php"); ?> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,10 +57,10 @@
   			<div class="navbar-collapse collapse navbar-right">
   				<ul class="nav navbar-nav">
   					<li class="active">
-  						<?php
-  						if (isset($_SESSION["username"])) 
-  						{
-  							$current_user = $_SESSION["username"];
+  						<!-- <?php
+  						/*if (isset($_SESSION["username"])) 
+  						{*/
+  							/*$current_user = $_SESSION["username"];
   							$name_query = "SELECT * FROM users WHERE username = '{$current_user}' LIMIT 1";
   							$name_result = mysqli_query($conn, $name_query);
   							confirm_query($name_result);
@@ -74,9 +74,9 @@
   							$first_name = "";
   							$name_title = "";
   							$view = "<a href='login.php'>Login/Signup</a>";        
-  						} 
-  						?>
-  						<?php echo "$view";?>
+  						} */
+  						?> -->
+  						<!-- <?php //echo "$view";?> -->
   					</li>
   					<li class="active"><a href="index.html">HOME</a></li>
   					<li><a href="about.html">ABOUT</a></li>
@@ -98,23 +98,20 @@
 	<!-- *****************************************************************************************************************
 	 HEADERWRAP
 	 ***************************************************************************************************************** -->
-
-
-
+	 <style type="text/css">
+		.img-logo{
+			max-width: 100%;
+			height: auto;
+		}
+	 </style>
 	 <div style="width: 100%;" class="demo-1">
 	 	<div class="content">
 	 		<div id="large-header" class="large-header">
 	 			<canvas id="demo-canvas" ></canvas>
-	 			<h1 class="main-title" style="padding-bottom:200px;"><img src="assets/img/t2.png" height="70" width="70">
-	 				<img src="assets/img/e.png"  height="40" width="40">
-	 				<img src="assets/img/c.png"  height="40" width="40">
-	 				<img src="assets/img/h.png"  height="40" width="40">
-	 				<img src="assets/img/n.png"  height="40" width="40">
-	 				<img src="assets/img/o.png"  height="40" width="40">
-	 				<img src="assets/img/v.png"  height="70" width="70">
-	 				<img src="assets/img/i.png"  height="70" width="70">
-	 				<img src="assets/img/T.png"  height="70" width="70">
-	 				<span class="thin">2016</span></h1>
+	 			<h1 class="main-title" style="padding-bottom:20vw;">
+	 				<img src="assets/img/vitcc.png" class="img-logo" />
+	 				<img src="assets/img/logo.png" class="img-logo" />
+	 			</h1>
 	 			</div>
 
 
@@ -131,24 +128,26 @@
 	 ***************************************************************************************************************** -->
 	 <div id="service">
 	 	<div class="container">
+	 	<p><center><h2>Our Patrons</h2></center></p>
 	 		<div class="row centered">
+	 		<br><br><br>
 	 			<div class="col-md-4">
-	 				<i class="fa fa-heart-o"></i>
-	 				<h4>Handsomely Crafted</h4>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	 				<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+	 				<img src="assets/img/gv.jpg" class="img-circle"  style="box-shadow: 5px 5px 5px #888888"></img>
+	 				<h4>Dr. G. Viswanathan</h4>
+	 				<h6>Founder & Chancellor</h6>
+	 				<p>The founder-chancellor of VIT University was born on December 8, 1938 in a remote village near Vellore in Tamil Nadu. His life is a source of inspiration to the modern- day youth. He is a man of profound knowledge whose aim has been to get his students to the peak of their capabilities. Every student at VIT University is given ample opportunities to prove his academic and cultural excellence. This is well encouraged and supported in all means by our chancellor.</p>
+	 			</div>
+	 			<div class="col-md-4" >
+	 				<img src="assets/img/vp.jpg" class="img-circle"  style="box-shadow: 5px 5px 5px #888888"></img>
+	 				<h4>Mr. Sankar Viswanathan</h4>
+	 				<h6>Vice President</h6>
+	 				<p>After his Advanced Diploma in Engineering Technology, at Chisholm Institute, Melbourne, Australia - he has held the honoured position as Chairman of Vellore Engineering College, before taking over as Pro-Chancellor (Academic VIT). He has travelled a lot and done the knowledge transfer, to the VIT. Though he is a man with a lot of responsibilities, it is one of his biggest priorities to be present whenever there is an event at our campus to shower us with all his support.</p>
 	 			</div>
 	 			<div class="col-md-4">
-	 				<i class="fa fa-flask"></i>
-	 				<h4>Retina Ready</h4>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	 				<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-	 			</div>
-	 			<div class="col-md-4">
-	 				<i class="fa fa-trophy"></i>
-	 				<h4>Quality Theme</h4>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	 				<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+	 				<img src="assets/img/avp.jpg" class="img-circle"  style="box-shadow: 5px 5px 5px #888888"></img>
+	 				<h4>Ms. Kadhambari S. Viswanathan</h4>
+	 				<h6>Assistant Vice President</h6>
+	 				<p>On completion of her Masters degree in Health Science, from the prestigious Bloomberg School of Public Health at Johns Hopkins University, Baltimore, USA. She has been honoured by the 'Limca Book of Records' as the youngest biographer. She is fully committed to the enrichment of the university and is completely involved with all activities in college. She encourages participation in intercollegiate events by fuelling us with constant support and is always available to the members of the University.</p>
 	 			</div>		 				
 	 		</div>
 	 	</div><! --/container -->
@@ -167,9 +166,7 @@
 	 					<img src="assets/img/portfolio/portfolio_09.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/gv.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -180,9 +177,7 @@
 	 					<img src="assets/img/portfolio/portfolio_02.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/vp.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -193,9 +188,7 @@
 	 					<img src="assets/img/portfolio/portfolio_03.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/avps.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -206,9 +199,7 @@
 	 					<img src="assets/img/portfolio/portfolio_04.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
 	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -219,9 +210,7 @@
 	 					<img src="assets/img/portfolio/portfolio_05.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
 	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -232,9 +221,7 @@
 	 					<img src="assets/img/portfolio/portfolio_06.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
 	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -245,9 +232,7 @@
 	 					<img src="assets/img/portfolio/portfolio_07.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
 	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -258,9 +243,7 @@
 	 					<img src="assets/img/portfolio/portfolio_08.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
 	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -271,9 +254,7 @@
 	 					<img src="assets/img/portfolio/portfolio_01.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
 	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -284,9 +265,7 @@
 	 					<img src="assets/img/portfolio/portfolio_10.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
 	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
