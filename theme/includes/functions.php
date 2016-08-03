@@ -181,10 +181,29 @@ function confirm_admin_logged_in() {
 //sending recovery code via mail
 function send_recovery_mail($email,$generated_random_number)
 {
-    $subject="Password Recovery : Favor.me";
-    $msg = "A request for change in password was made. /n Here's your recovery code : $generated_random_number /n";
-    $msg = wordwrap($msg,70);
-    $headers = "From: favour4me.ever@gmail.com" . "\r\n" ."CC: $email";
-    mail($email,$subject,$msg,$headers);
+    	require 'PHPMailer-master/PHPMailerAutoload.php';
+ 
+		$mail = new PHPMailer;
+		 
+		$mail->isSMTP();                                      
+		$mail->Host = 'smtp.gmail.com';                       
+		$mail->SMTPAuth = true;                               
+		$mail->Username = 'vibrancechennai@gmail.com';                   
+		$mail->Password = 'NayaWala';               
+		$mail->SMTPSecure = 'tls';                            
+		$mail->Port = 587;                                    
+		$mail->setFrom('vibrancechennai@gmail.com', 'Vibrance Registrations Team');
+		$mail->addAddress("$email");       
+		$mail->WordWrap = 50; 
+		$mail->isHTML(true);                                  
+		 
+		$mail->Subject = 'Vibrance event registration.';
+		$mail->Body    = 'You have successfully registered for <b>'.ucfirst($event_part[0]).'</b> in Vibrance16. Your E registration slip will be mailed and your participation will only be confirmed when you pay <b>Rs.'.$generated_random_number.'</b> at our payment desks in VIT.'.'<br>'.' Regards, Team Vibrance. ';
+		$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';	
+
+		if(!$mail->send()) {
+		   echo 'Message could not be sent.';
+		   echo 'Mailer Error: ' . $mail->ErrorInfo;
+		   exit;
 }
 ?>
