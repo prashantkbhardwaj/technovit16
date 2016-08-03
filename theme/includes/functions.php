@@ -178,4 +178,13 @@ function confirm_admin_logged_in() {
 		redirect_to("admin/index.php");
 	}
 }
+//sending recovery code via mail
+function send_recovery_mail($email,$generated_random_number)
+{
+    $subject="Password Recovery : Favor.me";
+    $msg = "A request for change in password was made. /n Here's your recovery code : $generated_random_number /n";
+    $msg = wordwrap($msg,70);
+    $headers = "From: favour4me.ever@gmail.com" . "\r\n" ."CC: $email";
+    mail($email,$subject,$msg,$headers);
+}
 ?>
