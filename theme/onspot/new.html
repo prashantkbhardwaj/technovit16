@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <form name="joe">
+        <input type="hidden" name="burns">
+    </form>
+    <script language="javascript">
+    var locate = window.location
+    document.joe.burns.value = locate
+
+    var text = document.joe.burns.value
+
+    function delineate(str) {
+        theleft = str.indexOf("=") + 1;
+        theright = str.lastIndexOf("&");
+        return (str.substring(theleft, theright));
+    }
+    document.write("First Name is " + delineate(text));
+    </script>
+</body>
+
+</html>
