@@ -1,12 +1,4 @@
 $(document).ready(function() {
-    $("#codeslam").click(function() {
-        var event = $("#event_codeslam").val();
-        var parti = 1;
-        $.post("refreshform.php", { event1: event, parti1: parti }, function(data) {
-            alert(data);
-        });
-    });
-$(document).ready(function() {
     $("#adaptune").click(function() {
         var event = $("#event_adaptune").val();
         var parti = 1;

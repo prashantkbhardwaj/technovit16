@@ -120,22 +120,18 @@
 		</section>
 		<!-- /slider-->
 		<section class="content">
-			<form>
-				<input type="text" id="event_codeslam" value="codeslam_alone_100_s" style="display: none;">
-				<div class="content__item" id="content-1">
-					<img class="content__item-img rounded-right" src="images/iphone-content.png" alt="Apple Watch Content" />
-					<div class="content__item-inner">
-						<h2>Code Slam</h2>
-						<h3>Talk is Cheap. Show the code.</h3>
-						<p>Aman Saha     : 9790714125</p>
-						<p>Kumar Shubham : 9790714431</p>
-						<!-- <p><a href="https://www.apple.com/iphone-6/technology/">Learn more about this technology &xrarr;</a></p> -->
-					</div>
-					<div style="text-align: center; ">
-	                    <input id="codeslam" class="gobutton" <?php echo $event_view; ?> type="button" value="Register!" onclick="this.value='Registered!'" /><?php echo $login_view; ?>
-	                </div>
-				</div>
-			</form>
+                <div class="container">
+                    <h2><em>Dota&nbsp; 2</em>Team of 5</h2>
+                    <br>
+                    <br>
+                    <form>
+                        <input type="text" id="event_dota2" value="dota2_team_500_s" style="display: none;">                    
+                        <div style="text-align: center; ">
+                            <input id="dota2" class="gobutton" <?php echo $event_view; ?> type="button" value="Register!" onclick="this.value='Registered!'" />
+                            <?php echo $login_view; ?>
+                        </div>
+                    </form> 
+                </div>
 
 			<div class="content__item" id="content-2">
 				<img class="content__item-img rounded-right" src="images/ipad-content.jpg" alt="iPad Mini Content" />
