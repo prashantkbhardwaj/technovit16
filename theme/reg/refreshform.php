@@ -59,6 +59,7 @@
 	    } 
 	    else 
 	    {
+	    	echo "$query";
 		   	echo "hello loser";
 		   	echo"Registration failed.";
 	    }    
