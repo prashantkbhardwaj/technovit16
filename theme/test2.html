@@ -27,9 +27,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 
 
-
-	<!-- Just for debugging purposes. Don't actually copy this line! -->
-	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!-- 
+	Just for debugging purposes. Don't actually copy this line!
+	[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif] -->
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -57,16 +57,16 @@
   			<div class="navbar-collapse collapse navbar-right">
   				<ul class="nav navbar-nav">
   					<li class="active">
-  						<!-- <?php
-  						/*if (isset($_SESSION["username"])) 
-  						{*/
-  							/*$current_user = $_SESSION["username"];
+  						<?php
+  						if (isset($_SESSION["username"])) 
+  						{
+  							$current_user = $_SESSION["username"];
   							$name_query = "SELECT * FROM users WHERE username = '{$current_user}' LIMIT 1";
   							$name_result = mysqli_query($conn, $name_query);
   							confirm_query($name_result);
   							$name_title = mysqli_fetch_assoc($name_result);
   							$first_name = explode(" ", $name_title['name']);            
-  							$view = "<a href='logout.php'>Logout, ".$first_name[0]."</a>";        
+  							$view = "<a href='logout.php'>Logout, ".$first	_name[0]."</a>";        
   						} 
   						else 
   						{
@@ -74,9 +74,9 @@
   							$first_name = "";
   							$name_title = "";
   							$view = "<a href='login.php'>Login/Signup</a>";        
-  						} */
-  						?> -->
-  						<!-- <?php //echo "$view";?> -->
+  						} 
+  						?>
+  						<?php //echo "$view";?>
   					</li>
   					<li class="active"><a href="index.html">HOME</a></li>
   					<li><a href="reg/index.html">REGISTRATIONS</a></li>
@@ -115,6 +115,12 @@
 	 <div style="width: 100%;" class="demo-1">
 	 	<div class="content">
 	 		<div id="large-header" class="large-header" style="margin-top:5vw;">
+	 			<div id="inner_box">	
+					<img src="assets/img/avp.jpg" alt="">
+					<img src="assets/img/gv.jpg" alt="">
+					<img src="assets/img/7.jpg" alt="">
+					<img src="assets/img/3.jpg" alt="">
+				</div>
 	 			<canvas id="demo-canvas" ></canvas>
 	 			<h1 class="main-title" style="padding-bottom:24vw;">
 	 				<img src="assets/img/vitcc.png" class="img-small"/>
