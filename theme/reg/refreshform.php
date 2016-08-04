@@ -44,7 +44,7 @@
 		echo "You have already registered for this event. ";
 	} 
 	
-	/*else {
+	else {
 
 		require 'PHPMailer-master/PHPMailerAutoload.php';
  
@@ -82,7 +82,7 @@
 	    } else {
 		   	echo"Registration failed.";
 	    }    
-	//}		
+	}		
 ?>      	
   
 <?php
