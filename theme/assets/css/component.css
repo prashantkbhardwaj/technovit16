@@ -6,11 +6,41 @@
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-	z-index: 1;
 }
 
 .demo-1 .large-header {
-	background-image: url('../img/test.jpg');
+	position: relative;
+	background-image: url('../img/themepage.png');
+	z-index: 1;
+}
+
+
+#inner_box{
+	position: relative;
+	width:400vw ;
+	animation: slider 20s infinite;
+	z-index: -100;
+	opacity: 0.7;
+}
+
+#inner_box img{
+	position: relative;
+	width :100vw;
+	height: 111vh ;
+	float: left ;
+	z-index: -100 ;
+}
+
+@keyframes slider{
+	0%{ left:0vw ; }
+	20%{ left:0vw ; }
+	25%{ left:-100vw ; }
+	45%{ left:-100vw ; }
+	50%{ left:-200vw ; }
+	70%{ left:-200vw ; }
+	75%{ left:-300vw ; }
+	95%{ left:-300vw ; }
+	100%{ left:-400vw ; }
 }
 
 .demo-2 .large-header {
@@ -27,10 +57,12 @@
 }
 
 .main-title {
-	position: absolute;
-	margin: 0;
+	position: fixed;
+
+	margin-top: 5vw;
 	padding: 0;
 	color: #f9f1e9;
+	z-index: 999;
 	text-align: center;
 	top: 50%;
 	left: 50%;
@@ -40,10 +72,12 @@
 
 .demo-1 .main-title, 
 .demo-3 .main-title {
+	/*position: relative;*/
 	text-transform: uppercase;
 	font-size: 4.0em;
 	letter-spacing: 0.1em;
 	font-family: 'Raleway', sans-serif;
+	z-index: 1000 ;
 }
 
 .demo-2 .main-title {
