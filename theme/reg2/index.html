@@ -18,6 +18,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/modernizr.custom.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 </head>
 <body>
 	<!-- Main container -->
@@ -95,8 +96,7 @@
 	<!-- /slider-->
 	<section class="content">
 		<div align="center" style="z-index:1200;">
-			<!-- <i class="fa fa-angle-up fa-3x" class="up" style="z-index:999;"></i> -->
-			<a href="www.google.co.in" class="button"><i class="fa fa-angle-up fa-3x"></i></a>
+			<i class="fa fa-angle-up fa-3x" id="up" style="z-index:999;"></i>
 		</div>
 		<div class="content__item" id="content-1">
 			<img class="content__item-img rounded-right" src="images/iphone-content.png" id="content-image" alt="Apple Watch Content" />
@@ -178,7 +178,7 @@
 		}
 	});
 	$(document).ready(function(){
-		$('.up').click(function(){
+		Hammer('body').on("swipeup",function(){
 			alert("hello");	
 			$('#inner-content').hide();
 			$('#content-image').hide();
