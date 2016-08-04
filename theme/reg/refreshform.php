@@ -18,7 +18,8 @@
 	$altphno = $name_title['altphno'];
 	$event = mysqli_real_escape_string($conn, htmlspecialchars($_POST['event1']));   
 	$event_part = explode("_", $event);
-	$parti = mysqli_real_escape_string($conn, htmlspecialchars($_POST['parti1']));   
+	$parti = mysqli_real_escape_string($conn, htmlspecialchars($_POST['parti1']));
+	echo"hello world";   
 	if (($name_title['college']!="VIT")&&($event_part[3]=="d")) {
 		$price = $parti*100;
 	} else {
@@ -73,6 +74,7 @@
 		
 		
 		$query = "INSERT INTO {$event} (name, email, college, regno, phno, altphno, parti, combo, price)";
+		echo"hello world";
 		$query .= " VALUES ('{$name}', '{$email}', '{$college}', '{$regno}', '{$phno}', '{$altphno}', {$parti}, '{$combo}', {$price})";
 		$result = mysqli_query($conn, $query);	
 
