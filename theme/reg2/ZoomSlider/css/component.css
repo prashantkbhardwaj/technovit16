@@ -265,7 +265,13 @@ body {
 .content__item--reset {
 	height: auto;
 }
-
+content .up{
+	z-index: 1;
+	pointer-events: auto;
+	color: #5c5edc;
+	position: absolute;
+	top: 10px;
+}
 .content h2 {
 	font-size: 3.5em;
 	font-weight: normal;
@@ -305,8 +311,7 @@ body {
 	opacity: 0;
 	-webkit-transform: translate3d(0,50px,0);
 	transform: translate3d(0,50px,0);
-	width: 768px;
-	height: 768px;
+	width: 50vw;
 }
 
 .content__item--current .content__item-inner {

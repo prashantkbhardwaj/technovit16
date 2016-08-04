@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
 	<!-- Main container -->
@@ -93,6 +94,10 @@
 	</section>
 	<!-- /slider-->
 	<section class="content">
+		<div align="center" style="z-index:1200;">
+			<!-- <i class="fa fa-angle-up fa-3x" class="up" style="z-index:999;"></i> -->
+			<a href="www.google.co.in" class="button"><i class="fa fa-angle-up fa-3x"></i></a>
+		</div>
 		<div class="content__item" id="content-1">
 			<img class="content__item-img rounded-right" src="images/iphone-content.png" id="content-image" alt="Apple Watch Content" />
 			<div class="content__item-inner" id="inner-content">
@@ -171,6 +176,21 @@
 			$('#inner-content').slideDown(1200);	
 			$('#content-image').fadeIn('slow');
 		}
+	});
+	$(document).ready(function(){
+		$('.up').click(function(){
+			alert("hello");	
+			$('#inner-content').hide();
+			$('#content-image').hide();
+			var src = 'images/iphone-content.png';
+			var data = '<h2 id="title">The iPhone 6</h2><h3>Incredible performance for powerful apps</h3><p>Built on 64-bit desktop-class architecture, the new A8 chip delivers more power, even while driving a larger display. The M8 motion coprocessor efficiently gathers data from advanced sensors and a new barometer. And with increased battery life, iPhone 6 lets you do more, for longer than ever.</p>';
+			setTimeout(function(){
+				$('#inner-content').html(data);
+				$('#content-image').attr('src',src);
+			},10);
+			$('#inner-content').slideDown(1200);	
+			$('#content-image').fadeIn('slow');
+		});
 	});
 </script>
 </html>

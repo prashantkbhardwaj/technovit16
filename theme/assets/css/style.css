@@ -13,6 +13,59 @@
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
+/*==================      Well     ======================*/
+
+.well {
+    padding: 114px 0 0 0;
+}
+
+.well__offset-1 {
+    padding: 135px 0 128px 0;
+}
+
+.well__offset-2 {
+    padding: 141px 0 67px 0;
+}
+
+.well__offset-3 {
+    padding: 131px 0 129px 0;
+}
+
+.well__offset-4 {
+    padding: 116px 0 129px 0;
+}
+
+* + .row {
+    margin-top: 80px;
+}
+
+* + .row__offset-1 {
+    margin-top: 60px;
+}
+
+* + .row__offset-2 {
+	position: relative;
+    margin-top: 30px;
+}
+
+/*==================   Lazy Img    ======================*/
+
+div.lazy-img{
+	float: right;
+	vertical-align: top;
+	width: 70%;
+	height: 50%;
+}
+
+div.grid_6{
+	position: relative;
+	width: 570px;
+}
+
+
+
+
+
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
