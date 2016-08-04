@@ -178,8 +178,7 @@
 		}
 	});
 	$(document).ready(function(){
-		var up = document.getElementById('up');
-		Hammer(up).on("swipeup",function(){
+		Hammer('body').on("swipeup",function(){
 			alert("hello");	
 			$('#inner-content').hide();
 			$('#content-image').hide();
