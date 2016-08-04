@@ -77,6 +77,12 @@
   						} 
   						?>
   						<?php echo "$view";?>
+  						<a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
+  						<ul id="nav-mobile" class="right hide-on-med-and-down">
+  							<li>Kumar Shubham</li><!-- Enter the name of the user here-->
+  							<li><a href="#">Log Out</a></li>
+  							<li><a href="aboutus.html">About Us</a></li>
+  						</ul>
   					</li>
   					<li class="active"><a href="index.html">HOME</a></li>
   					<li><a href="about.html">ABOUT</a></li>
@@ -507,4 +513,12 @@
 <script src="assets/js/rAF.js"></script>
 <script src="assets/js/demo-1.js"></script>
 </body>
+<script type="text/javascript">
+	(function($){
+		$(function(){
+
+			$('.button-collapse').sideNav();
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
 </html>
