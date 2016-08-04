@@ -93,6 +93,9 @@
 	</section>
 	<!-- /slider-->
 	<section class="content">
+	<div align="center">
+		<img src="images/uparrow .png">
+	</div>
 		<div class="content__item" id="content-1">
 			<img class="content__item-img rounded-right" src="images/iphone-content.png" id="content-image" alt="Apple Watch Content" />
 			<div class="content__item-inner" id="inner-content">
@@ -156,7 +159,7 @@
 				$('#inner-content').html(data);
 				$('#content-image').attr('src',src);
 			},10);
-			$('#inner-content').slideDown();	
+			$('#inner-content').slideDown(1200);	
 			$('#content-image').fadeIn('slow');
 		}
 		else if(e.keyCode === 40){
@@ -168,7 +171,7 @@
 				$('#inner-content').html(data);
 				$('#content-image').attr('src',src);
 			},10);
-			$('#inner-content').slideDown();	
+			$('#inner-content').slideDown(1200);	
 			$('#content-image').fadeIn('slow');
 		}
 	});
