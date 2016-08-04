@@ -10,17 +10,17 @@
         confirm_query($name_result);
         $name_title = mysqli_fetch_assoc($name_result);
         $first_name = explode(" ", $name_title['name']);            
-        $view = "<a href='logout.php'>Logout,".$first_name[0]."</a>"; 
+        $view = "<a href='logout.php'>Logout, ".$first_name[0]."</a>"; 
         $event_view = ""; 
         $login_view = "";      
     } else {
         $current_user = "";  
         $first_name = "";
         $name_title = "";
-        $view = "<a href='../theme/login.php'>Login</a>";  
-        $login_view ="<a href='../theme/login.php' class='gobutton'>Login to register</a>"; 
+        $view = "<a href='login/index.php'>Login</a>";  
+        $login_view = "<a href='login/index.php' class='gobutton'>Login to register</a>"; 
         $event_view = "style='display: none;'";     
-    }   
+    }  
 ?>
 
 <!DOCTYPE html>
@@ -125,12 +125,12 @@
                     <br>
                     <br>
                     <form>
-                        <input type="text" id="event_dota2" value="dota2_team_500_s" style="display: none;">                    
+                        <input type="text" id="event_counterstrike" value="counterstrike_team_500_s" style="display: none;">                    
                         <div style="text-align: center; ">
-                            <input id="dota2" class="gobutton" <?php echo $event_view; ?> type="button" value="Register!" onclick="this.value='Registered!'" />
+                            <input id="counterstrike" class="gobutton" <?php echo $event_view; ?> type="button" value="Register!" onclick="this.value='Registered!'" />
                             <?php echo $login_view; ?>
                         </div>
-                    </form> 
+                    </form>  
                 </div>
 
 			<div class="content__item" id="content-2">
