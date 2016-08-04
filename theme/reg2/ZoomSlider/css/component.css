@@ -265,7 +265,13 @@ body {
 .content__item--reset {
 	height: auto;
 }
-
+content .up{
+	z-index: 1;
+	pointer-events: auto;
+	color: #5c5edc;
+	position: absolute;
+	top: 10px;
+}
 .content h2 {
 	font-size: 3.5em;
 	font-weight: normal;
