@@ -43,7 +43,8 @@
 	if ($check['email']== $email) {
 		echo "You have already registered for this event. ";
 	} 
-	else {
+	
+	/*else {
 
 		require 'PHPMailer-master/PHPMailerAutoload.php';
  
@@ -71,17 +72,17 @@
 		   exit;
 		}	
 		
-		
+		*/
 		$query = "INSERT INTO {$event} (name, email, college, regno, phno, altphno, parti, combo, price)";
 		$query .= " VALUES ('{$name}', '{$email}', '{$college}', '{$regno}', '{$phno}', '{$altphno}', {$parti}, '{$combo}', {$price})";
-		$result = mysqli_query($conn, $query);	
+		$result = mysqli_query($conn, $query);
 
 	    if ($result) {
 	      	echo"You have succesfully registered for Vibrance16. Please check your email for the details. Your registraion will only be confirmed after you make the payment at our registration desk in VIT.";		
 	    } else {
 		   	echo"Registration failed.";
 	    }    
-	}		
+	//}		
 ?>      	
   
 <?php
