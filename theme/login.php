@@ -148,12 +148,6 @@ if(isset($_POST['signup'])){
 				</div>
 				<div class="row">
 					<div class="input-field col s6 offset-s3">
-						<label for="email">E-mail:</label>
-						<input style="margin-bottom:10px;" type="email" name="email">
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col s6 offset-s3">
 						<label for="regno">Registration Number :</label>
 						<input style="margin-bottom:10px;" type="text" name="regno">
 					</div>

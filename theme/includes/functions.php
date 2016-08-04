@@ -206,4 +206,5 @@ function send_recovery_mail($email,$generated_random_number)
 		   echo 'Mailer Error: ' . $mail->ErrorInfo;
 		   exit;
 }
+}
 ?>

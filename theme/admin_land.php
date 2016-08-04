@@ -114,18 +114,21 @@
           <a class="navbar-brand" href="index.html">technoVIT'16</a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog.html">BLOG</a></li>
-                <li><a href="single-post.html">SINGLE POST</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="single-project.html">SINGLE PROJECT</a></li>
-              </ul>
+            <ul class="nav navbar-nav">
+                <li class="active" <?php echo $view_whole; ?> >
+                    <a href="admin_land.php">Admin Home</a>                               
+                </li>
+                <li <?php echo $view_whole; ?> >
+                    <br>
+                    <a href="<?php echo $link1; ?>"><?php echo $page; ?></a>
+                </li>
+                <li <?php echo $view_whole; ?> >
+                    <a href="<?php echo $link2; ?>">On Spot Registration</a>
+                </li>
+                <li>
+                    <?php echo "<a href='logout_admin.php'>Logout, ".$first_name[0]."</a>"; ?>
+                </li>
+            </ul>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -151,22 +154,31 @@
      About Us
      ***************************************************************************************************************** -->
     <div class="container mtb">
+        <h2 style="text-align: center;"><em>Admin</em><?php echo $page; ?></h2>
         <div class="row__offset-2" >
             <div class="col-lg-6" >
-            <a href="#.html"><img src="technologo.png"></a></div>
-            <div class="col-lg-6"><a href="#.html"><br><img src="technologo.png" ></a>
+                <a href="<?php echo $link1; ?>">
+                    <img src="technologo.png">
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a href="<?php echo $link2; ?>"><br>
+                    <img src="technologo.png" >
+                </a>
             </div>
         </div>
         <div class="row__offset-2">
             <div class="col-lg-6">
-            <a href="#.html"><img src="technologo.png"></a></div>
-            <div class="col-lg-6"><a href="#.html"><br><img src="technologo.png"></a>
+                <a href="combo_date.php">><img src="technologo.png"></a>
+            </div>
+            <div class="col-lg-6">
+                <a href="viewpro.php"><br><img src="technologo.png"></a>
             </div>
         </div>
      </div><! --/container -->
          
 
-    <!-- *****************************************************************************************************************
+    <!-- ************************************************************************************************************
      FOOTER
      ***************************************************************************************************************** -->
      <div id="footerwrap">
