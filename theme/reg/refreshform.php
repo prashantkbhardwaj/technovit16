@@ -39,6 +39,11 @@
 	$check_query = "SELECT * FROM {$event} WHERE email = '{$current_user}' ";
 	$check_result = mysqli_query($conn, $check_query);
 	confirm_query($check_result);
+
+	$query = "INSERT INTO {$event} (name, email, college, regno, phno, altphno, parti, combo, price)";
+	$query .= " VALUES ('{$name}', '{$email}', '{$college}', '{$regno}', '{$phno}', '{$altphno}', {$parti}, '{$combo}', {$price})";
+	$result = mysqli_query($conn, $query);
+		
 	$check = mysqli_fetch_assoc($check_result);
 	if ($check['email']== $email) {
 		echo "You have already registered for this event. ";
