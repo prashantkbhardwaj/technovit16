@@ -72,7 +72,7 @@
 		   exit;
 		}	*/
 		
-		
+		echo $event;
 		$query = "INSERT INTO {$event} (name, email, college, regno, phno, altphno, parti, combo, price)";
 		echo"hello world";
 		$query .= " VALUES ('{$name}', '{$email}', '{$college}', '{$regno}', '{$phno}', '{$altphno}', {$parti}, '{$combo}', {$price})";
