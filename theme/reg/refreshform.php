@@ -43,7 +43,7 @@
 	if ($check['email']== $email) {
 		echo "You have already registered for this event. ";
 	} 
-	else {
+	/*else {
 
 		require 'PHPMailer-master/PHPMailerAutoload.php';
  
@@ -69,7 +69,7 @@
 		   echo 'Message could not be sent.';
 		   echo 'Mailer Error: ' . $mail->ErrorInfo;
 		   exit;
-		}
+		}	*/
 		
 		
 		$query = "INSERT INTO {$event} (name, email, college, regno, phno, altphno, parti, combo, price)";
@@ -81,7 +81,7 @@
 	    } else {
 		   	echo"Registration failed.";
 	    }    
-	}		
+	//}		
 ?>      	
   
 <?php
