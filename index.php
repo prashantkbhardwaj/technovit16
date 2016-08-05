@@ -27,9 +27,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
 
 
-
-	<!-- Just for debugging purposes. Don't actually copy this line! -->
-	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!-- 
+	Just for debugging purposes. Don't actually copy this line!
+	[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif] -->
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -52,7 +52,7 @@
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
   				</button>
-  				<a class="navbar-brand" href="index.html">TecnhoVIT'16.</a>
+  				<a class="navbar-brand" href="#start">tecnhoVIT'16.</a>
   			</div>
   			<div class="navbar-collapse collapse navbar-right">
   				<ul class="nav navbar-nav">
@@ -78,15 +78,17 @@
   						?>
   						<?php echo "$view";?>
   					</li>
-  					<li class="active"><a href="index.html">HOME</a></li>
-  					<li><a href="about.html">ABOUT</a></li>
-  					<li><a href="contact.html">CONTACT</a></li>
+  					<li><a href="#patrons">PATRONS</a></li>
+  					<li><a href="#archives">ARCHIVES</a></li>
+  					<li><a href="#clients">SPONSORS</a></li>
+  					<li><a href="reg/index.html">REGISTRATIONS</a></li>
+  					<li><a href="#contact">CONTACT</a></li>
   					<li class="dropdown">
   						<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
   						<ul class="dropdown-menu">
   							<li><a href="blog.html">BLOG</a></li>
   							<li><a href="single-post.html">SINGLE POST</a></li>
-  							<li><a href="portfolio.html">PORTFOLIO</a></li>
+  							<li><a href="aboutus.html">ABOUT US</a></li>
   							<li><a href="single-project.html">SINGLE PROJECT</a></li>
   						</ul>
   					</li>
@@ -98,57 +100,73 @@
 	<!-- *****************************************************************************************************************
 	 HEADERWRAP
 	 ***************************************************************************************************************** -->
-
-
-
-	 <div style="width: 100%;" class="demo-1">
+	 <style type="text/css">
+	 	.img-logo{
+	 		max-width: 100%;
+	 		height: auto;
+	 	}
+	 	.img-small{
+	 		max-width: 28%;
+	 		height: auto;
+	 	}
+	 	#year{
+	 		padding-top: 0;
+	 		margin-top: 0;
+	 	}
+	 </style>
+	 <div style="width: 100%;" class="demo-1" name="start">
 	 	<div class="content">
-	 		<div id="large-header" class="large-header">
+	 		<div id="large-header" class="large-header" style="margin-top:5vw;">
+	 			<div id="inner_box">	
+					<img src="assets/img/9.jpg" alt="">
+					<img src="assets/img/2.jpg" alt="">
+					<img src="assets/img/3.jpg" alt="">
+					<img src="assets/img/4.jpg" alt="">
+				</div>
 	 			<canvas id="demo-canvas" ></canvas>
-	 			<h1 class="main-title" style="padding-bottom:200px;"><img src="assets/img/t2.png" height="70" width="70">
-	 				<img src="assets/img/e.png"  height="40" width="40">
-	 				<img src="assets/img/c.png"  height="40" width="40">
-	 				<img src="assets/img/h.png"  height="40" width="40">
-	 				<img src="assets/img/n.png"  height="40" width="40">
-	 				<img src="assets/img/o.png"  height="40" width="40">
-	 				<img src="assets/img/v.png"  height="70" width="70">
-	 				<img src="assets/img/i.png"  height="70" width="70">
-	 				<img src="assets/img/T.png"  height="70" width="70">
-	 				<span class="thin">2016</span></h1>
-	 			</div>
-
-
+	 			<h1 class="main-title" style="padding-bottom:24vw;">
+	 				<img src="assets/img/vitcc.png" class="img-small"/>
+	 				<img src="design/technovit copy.png" class="img-logo" align="center" />
+	 				<span class="thin" style="text-align:center;">2016</span>
+	 			</h1>
+	 			<small class="main-title" style="font-size:2em;padding-top:15vw;text-transform:capitalize;">15<sup>th</sup> to 17<sup>th</sup>September
+	 			</small>
 	 		</div>
-	 		<!-- Related demos -->
+	 		
+
+	 	</div>
+	 	<!-- Related demos -->
 
 
-
-	 	</div> <!-- /container -->
-
+	 <div name="patrons"></div>
+	 </div> <!-- /container -->
+	 
 
 	<!-- *****************************************************************************************************************
 	 SERVICE LOGOS
 	 ***************************************************************************************************************** -->
-	 <div id="service">
+	 <div id="service" >
 	 	<div class="container">
+	 		<p><center><h2><br>Our Patrons</h2></center></p>
 	 		<div class="row centered">
+	 			<br><br><br>
 	 			<div class="col-md-4">
-	 				<i class="fa fa-heart-o"></i>
-	 				<h4>Handsomely Crafted</h4>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	 				<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+	 				<img src="assets/img/gv.jpg" class="img-circle"  style="box-shadow: 5px 5px 15px #888888"></img>
+	 				<h4>Dr. G. Viswanathan</h4>
+	 				<h6>Founder & Chancellor</h6>
+	 				<p>The founder-chancellor of VIT University was born on December 8, 1938 in a remote village near Vellore in Tamil Nadu. His life is a source of inspiration to the modern- day youth. He is a man of profound knowledge whose aim has been to get his students to the peak of their capabilities. Every student at VIT University is given ample opportunities to prove his academic and cultural excellence. This is well encouraged and supported in all means by our chancellor.</p>
+	 			</div>
+	 			<div class="col-md-4" >
+	 				<img src="assets/img/vp.jpg" class="img-circle"  style="box-shadow: 5px 5px 15px #888888"></img>
+	 				<h4>Mr. Sankar Viswanathan</h4>
+	 				<h6>Vice President</h6>
+	 				<p>After his Advanced Diploma in Engineering Technology, at Chisholm Institute, Melbourne, Australia - he has held the honoured position as Chairman of Vellore Engineering College, before taking over as Pro-Chancellor (Academic VIT). He has travelled a lot and done the knowledge transfer, to the VIT. Though he is a man with a lot of responsibilities, it is one of his biggest priorities to be present whenever there is an event at our campus to shower us with all his support.</p>
 	 			</div>
 	 			<div class="col-md-4">
-	 				<i class="fa fa-flask"></i>
-	 				<h4>Retina Ready</h4>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	 				<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-	 			</div>
-	 			<div class="col-md-4">
-	 				<i class="fa fa-trophy"></i>
-	 				<h4>Quality Theme</h4>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-	 				<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+	 				<img src="assets/img/avp.jpg" class="img-circle"  style="box-shadow: 5px 5px 15px #888888"></img>
+	 				<h4>Ms. Kadhambari S. Viswanathan</h4>
+	 				<h6>Assistant Vice President</h6>
+	 				<p>On completion of her Masters degree in Health Science, from the prestigious Bloomberg School of Public Health at Johns Hopkins University, Baltimore, USA. She has been honoured by the 'Limca Book of Records' as the youngest biographer. She is fully committed to the enrichment of the university and is completely involved with all activities in college. She encourages participation in intercollegiate events by fuelling us with constant support and is always available to the members of the University.</p>
 	 			</div>		 				
 	 		</div>
 	 	</div><! --/container -->
@@ -157,19 +175,17 @@
 	<!-- *****************************************************************************************************************
 	 PORTFOLIO SECTION
 	 ***************************************************************************************************************** -->
-	 <div id="portfoliowrap">
-	 	<h3>LATEST WORKS</h3>
+	 <div id="portfoliowrap" name="archives">
+	 	<h3>ARCHIVES<br><br><br></h3>
 
 	 	<div class="portfolio-centered">
 	 		<div class="recentitems portfolio">
 	 			<div class="portfolio-item graphic-design">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_09.jpg" alt="">
+	 					<img src="assets/img/2.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/2.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -177,12 +193,10 @@
 
 	 			<div class="portfolio-item web-design">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_02.jpg" alt="">
+	 					<img src="assets/img/1.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/1.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -190,12 +204,10 @@
 
 	 			<div class="portfolio-item graphic-design">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_03.jpg" alt="">
+	 					<img src="assets/img/3.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/3.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -203,12 +215,10 @@
 
 	 			<div class="portfolio-item graphic-design">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_04.jpg" alt="">
+	 					<img src="assets/img/4.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/4.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -216,12 +226,10 @@
 
 	 			<div class="portfolio-item books">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_05.jpg" alt="">
+	 					<img src="assets/img/5.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/5.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -229,12 +237,10 @@
 
 	 			<div class="portfolio-item graphic-design">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_06.jpg" alt="">
+	 					<img src="assets/img/7.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/7.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -242,12 +248,10 @@
 
 	 			<div class="portfolio-item books">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_07.jpg" alt="">
+	 					<img src="assets/img/6.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/6.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -255,12 +259,10 @@
 
 	 			<div class="portfolio-item graphic-design">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_08.jpg" alt="">
+	 					<img src="assets/img/8.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/8.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -268,12 +270,10 @@
 
 	 			<div class="portfolio-item web-design">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_01.jpg" alt="">
+	 					<img src="assets/img/9.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/9.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -281,12 +281,10 @@
 
 	 			<div class="portfolio-item books">
 	 				<div class="he-wrap tpl6">
-	 					<img src="assets/img/portfolio/portfolio_10.jpg" alt="">
+	 					<img src="assets/img/10.jpg" alt="">
 	 					<div class="he-view">
 	 						<div class="bg a0" data-animate="fadeIn">
-	 							<h3 class="a1" data-animate="fadeInDown">A Book Design Item</h3>
-	 							<a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
-	 							<a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+	 							<a data-rel="prettyPhoto" href="assets/img/10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
 	 						</div><!-- he bg -->
 	 					</div><!-- he view -->		
 	 				</div><!-- he wrap -->
@@ -301,60 +299,20 @@
 	 MIDDLE CONTENT
 	 ***************************************************************************************************************** -->
 
-	 <div class="container mtb">
-	 	<div class="row">
-	 		<div class="col-lg-4 col-lg-offset-1">
-	 			<h4>More About Our Agency.</h4>
-	 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-	 			<p><br/><a href="about.html" class="btn btn-theme">More Info</a></p>
-	 		</div>
-	 		
-	 		<div class="col-lg-3">
-	 			<h4>Frequently Asked</h4>
-	 			<div class="hline"></div>
-	 			<p><a href="#">How cool is this theme?</a></p>
-	 			<p><a href="#">Need a nice good-looking site?</a></p>
-	 			<p><a href="#">Is this theme retina ready?</a></p>
-	 			<p><a href="#">Which version of Font Awesome uses?</a></p>
-	 			<p><a href="#">Free support is integrated?</a></p>
-	 		</div>
-	 		
-	 		<div class="col-lg-3">
-	 			<h4>Latest Posts</h4>
-	 			<div class="hline"></div>
-	 			<p><a href="single-post.html">Our new site is live now.</a></p>
-	 			<p><a href="single-post.html">Retina ready is not an option.</a></p>
-	 			<p><a href="single-post.html">Bootstrap 3 framework is the best.</a></p>
-	 			<p><a href="single-post.html">You need this theme, buy it now.</a></p>
-	 			<p><a href="single-post.html">This theme is what you need.</a></p>
-	 		</div>
-	 		
-	 	</div><! --/row -->
-	 </div><! --/container -->
+	 
 	 
 	<!-- *****************************************************************************************************************
 	 TESTIMONIALS
 	 ***************************************************************************************************************** -->
-	 <div id="twrap">
-	 	<div class="container centered">
-	 		<div class="row">
-	 			<div class="col-lg-8 col-lg-offset-2">
-	 				<i class="fa fa-comment-o"></i>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-	 				<h4><br/>Marcel Newman</h4>
-	 				<p>WEB DESIGNER - BLACKTIE.CO</p>
-	 			</div>
-	 		</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/twrap -->
+	 
 	 
 	<!-- *****************************************************************************************************************
 	 OUR CLIENTS
 	 ***************************************************************************************************************** -->
-	 <div id="cwrap">
+	 <div id="cwrap" name="clients">
 	 	<div class="container">
 	 		<div class="row centered">
-	 			<h3>OUR CLIENTS</h3>
+	 			<h3>OUR SPONSORS</h3>
 	 			<div class="col-lg-3 col-md-3 col-sm-3">
 	 				<img src="assets/img/clients/client01.png" class="img-responsive">
 	 			</div>
@@ -374,38 +332,37 @@
 	<!-- *****************************************************************************************************************
 	 FOOTER
 	 ***************************************************************************************************************** -->
-	 <div id="footerwrap">
-	 	<div class="container">
-	 		<div class="row">
-	 			<div class="col-lg-4">
-	 				<h4>About</h4>
-	 				<div class="hline-w"></div>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-	 			</div>
-	 			<div class="col-lg-4">
-	 				<h4>Social Links</h4>
-	 				<div class="hline-w"></div>
-	 				<p>
-	 					<a href="#"><i class="fa fa-dribbble"></i></a>
-	 					<a href="#"><i class="fa fa-facebook"></i></a>
-	 					<a href="#"><i class="fa fa-twitter"></i></a>
-	 					<a href="#"><i class="fa fa-instagram"></i></a>
-	 					<a href="#"><i class="fa fa-tumblr"></i></a>
-	 				</p>
-	 			</div>
-	 			<div class="col-lg-4">
-	 				<h4>Our Bunker</h4>
-	 				<div class="hline-w"></div>
-	 				<p>
-	 					Some Ave, 987,<br/>
-	 					23890, New York,<br/>
-	 					United States.<br/>
-	 				</p>
-	 			</div>
+	<div id="footerwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Social Links</h4>
+                    <div class="hline-w"></div>
+                    <p>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-tumblr"></i></a>
+                    </p>
+                </div>
+                <div name="contact" class="col-lg-6">
+                    <h4>Contact Us</h4>
+                    <div class="hline-w"></div>
+                    <p>
+                        VIT University Chennai Campus<br/>
+	 					Vandalur - Kelambakkam Road<br/>
+	 					Chennai - 600 127<br/>
+	 					Phone : +91 44 3993 1555<br/>
+	 					Fax : +91 44 3993 2555<br/>
+	 					Email : admin.chennai@vit.ac.in
+                    </p>
+                </div>
+            
+            </div><! --/row -->
+        </div><! --/container -->
+     </div><! --/footerwrap -->
 
-	 		</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/footerwrap -->
 	 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -501,6 +458,28 @@
 		setPortfolio();          
 	});
 })(jQuery);
+</script>
+<script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+</script>
+<script type="text/javascript">
+	/*function logoSlide(){
+		$('.main-title').slideDown(3000);	
+	}
+	setTimeout(logoSlide,800)*/
 </script>
 <script src="assets/js/TweenLite.min.js"></script>
 <script src="assets/js/EasePack.min.js"></script>

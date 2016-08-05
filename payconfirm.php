@@ -107,6 +107,7 @@ if(!$mail->send()) {
 $update_query = "UPDATE {$event} SET paid = 1, cnfby = '{$current_user}', confdate = '{$confdate}' WHERE id = {$id} LIMIT 1";
 $update_result = mysqli_query($conn, $update_query);
 
+//checking for updation
 if ($result && mysqli_affected_rows($conn) == 1) {
 
 	redirect_to("payments.php");
