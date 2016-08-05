@@ -78,11 +78,9 @@
   						?>
   						<?php echo "$view";?>
   					</li>
-  					<li><a href="#start">START</a></li>
   					<li><a href="#patrons">PATRONS</a></li>
   					<li><a href="#archives">ARCHIVES</a></li>
   					<li><a href="#clients">CLIENTS</a></li>
-  					<li class="active"><a href="index.html">HOME</a></li>
   					<li><a href="reg/index.html">REGISTRATIONS</a></li>
   					<li><a href="contact.html">CONTACT</a></li>
   					<li class="dropdown">
@@ -120,10 +118,10 @@
 	 	<div class="content">
 	 		<div id="large-header" class="large-header" style="margin-top:5vw;">
 	 			<div id="inner_box">	
-					<img src="assets/img/avp.jpg" alt="">
-					<img src="assets/img/gv.jpg" alt="">
-					<img src="assets/img/7.jpg" alt="">
+					<img src="assets/img/1.jpg" alt="">
+					<img src="assets/img/2.jpg" alt="">
 					<img src="assets/img/3.jpg" alt="">
+					<img src="assets/img/4.jpg" alt="">
 				</div>
 	 			<canvas id="demo-canvas" ></canvas>
 	 			<h1 class="main-title" style="padding-bottom:24vw;">
@@ -337,11 +335,6 @@
 	 <div id="footerwrap">
 	 	<div class="container">
 	 		<div class="row">
-	 			<div class="col-lg-4">
-	 				<h4>About</h4>
-	 				<div class="hline-w"></div>
-	 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-	 			</div>
 	 			<div class="col-lg-4">
 	 				<h4>Social Links</h4>
 	 				<div class="hline-w"></div>
