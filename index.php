@@ -52,7 +52,7 @@
   					<span class="icon-bar"></span>
   					<span class="icon-bar"></span>
   				</button>
-  				<a class="navbar-brand" href="index.html">tecnhoVIT'16.</a>
+  				<a class="navbar-brand" href="#start">tecnhoVIT'16.</a>
   			</div>
   			<div class="navbar-collapse collapse navbar-right">
   				<ul class="nav navbar-nav">
@@ -80,9 +80,9 @@
   					</li>
   					<li><a href="#patrons">PATRONS</a></li>
   					<li><a href="#archives">ARCHIVES</a></li>
-  					<li><a href="#clients">CLIENTS</a></li>
+  					<li><a href="#clients">SPONSORS</a></li>
   					<li><a href="reg/index.html">REGISTRATIONS</a></li>
-  					<li><a href="contact.html">CONTACT</a></li>
+  					<li><a href="#contact">CONTACT</a></li>
   					<li class="dropdown">
   						<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
   						<ul class="dropdown-menu">
@@ -118,7 +118,7 @@
 	 	<div class="content">
 	 		<div id="large-header" class="large-header" style="margin-top:5vw;">
 	 			<div id="inner_box">	
-					<img src="assets/img/1.jpg" alt="">
+					<img src="assets/img/9.jpg" alt="">
 					<img src="assets/img/2.jpg" alt="">
 					<img src="assets/img/3.jpg" alt="">
 					<img src="assets/img/4.jpg" alt="">
@@ -332,36 +332,37 @@
 	<!-- *****************************************************************************************************************
 	 FOOTER
 	 ***************************************************************************************************************** -->
-	 <div id="footerwrap">
-	 	<div class="container">
-	 		<div class="row">
-	 			<div class="col-lg-4">
-	 				<h4>Social Links</h4>
-	 				<div class="hline-w"></div>
-	 				<p>
-	 					<a href="#"><i class="fa fa-dribbble"></i></a>
-	 					<a href="#"><i class="fa fa-facebook"></i></a>
-	 					<a href="#"><i class="fa fa-twitter"></i></a>
-	 					<a href="#"><i class="fa fa-instagram"></i></a>
-	 					<a href="#"><i class="fa fa-tumblr"></i></a>
-	 				</p>
-	 			</div>
-	 			<div class="col-lg-4">
-	 				<h4>Contact Us</h4>
-	 				<div class="hline-w"></div>
-	 				<p>
-	 					VIT University Chennai Campus<br/>
+	<div id="footerwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Social Links</h4>
+                    <div class="hline-w"></div>
+                    <p>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-tumblr"></i></a>
+                    </p>
+                </div>
+                <div name="contact" class="col-lg-6">
+                    <h4>Contact Us</h4>
+                    <div class="hline-w"></div>
+                    <p>
+                        VIT University Chennai Campus<br/>
 	 					Vandalur - Kelambakkam Road<br/>
 	 					Chennai - 600 127<br/>
 	 					Phone : +91 44 3993 1555<br/>
 	 					Fax : +91 44 3993 2555<br/>
 	 					Email : admin.chennai@vit.ac.in
-	 				</p>
-	 			</div>
+                    </p>
+                </div>
+            
+            </div><! --/row -->
+        </div><! --/container -->
+     </div><! --/footerwrap -->
 
-	 		</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/footerwrap -->
 	 
     <!-- Bootstrap core JavaScript
     ================================================== -->
