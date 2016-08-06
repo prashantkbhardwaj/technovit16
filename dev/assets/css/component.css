@@ -89,8 +89,7 @@
 
 .main-title {
 	position: fixed;
-
-	margin-top: 5vw;
+	margin-top: -1vw;
 	padding: 0;
 	color: #f9f1e9;
 	z-index: 999;
@@ -99,6 +98,38 @@
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+}
+
+#clockdiv{
+	position: fixed ;
+	top: 77vh ;
+	left: 38vw ;
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
 }
 
 .demo-1 .main-title, 
