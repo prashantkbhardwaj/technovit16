@@ -1,7 +1,3 @@
-<?php require_once("includes/session.php");?>
-<?php require_once("includes/db_connection.php");?>
-<?php require_once("includes/functions.php");?>
-<?php require_once("includes/validation_functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,27 +52,7 @@
   			</div>
   			<div class="navbar-collapse collapse navbar-right">
   				<ul class="nav navbar-nav">
-  					<li class="active">
-  						<?php
-  						if (isset($_SESSION["username"])) 
-  						{
-  							$current_user = $_SESSION["username"];
-  							$name_query = "SELECT * FROM users WHERE username = '{$current_user}' LIMIT 1";
-  							$name_result = mysqli_query($conn, $name_query);
-  							confirm_query($name_result);
-  							$name_title = mysqli_fetch_assoc($name_result);
-  							$first_name = explode(" ", $name_title['name']);            
-  							$view = "<a href='logout.php'>Logout, ".$first_name[0]."</a>";        
-  						} 
-  						else 
-  						{
-  							$current_user = "";  
-  							$first_name = "";
-  							$name_title = "";
-  							$view = "<a href='login.php'>Login/Signup</a>";        
-  						} 
-  						?>
-  						<?php echo "$view";?>
+  					<li class="active">  						
   					</li>
   					<li><a href="#patrons">PATRONS</a></li>
   					<li><a href="#archives">ARCHIVES</a></li>
