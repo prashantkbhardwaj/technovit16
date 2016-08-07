@@ -18,7 +18,7 @@
 
 #inner_box{
 	position: absolute;
-	width:400vw ;
+	width:500vw ;
 	animation: slider 20s infinite;
 	z-index: 1 !important;
 	opacity: 0.7;
@@ -32,7 +32,7 @@
 	/*z-index: -100 !important;*/
 }
 
-@keyframes slider{
+/*@keyframes slider{
 	0%{ left:0vw ; }
 	20%{ left:0vw ; }
 	25%{ left:-100vw ; }
@@ -41,6 +41,19 @@
 	70%{ left:-200vw ; }
 	75%{ left:-300vw ; }
 	95%{ left:-300vw ; }
+}*/
+
+@keyframes slider{
+	0%{ left:0vw ; }
+	16%{ left:0vw ; }
+	20%{ left:-100vw ; }
+	36%{ left:-100vw ; }
+	40%{ left:-200vw ; }
+	56%{ left:-200vw ; }
+	60%{ left:-300vw ; }
+	76%{ left:-300vw ; }
+	80%{ left:-400vw ; }
+	96%{ left:-400vw ; }
 }
 
 .demo-2 .large-header {
