@@ -19,7 +19,7 @@ $sansserif: 'Martel Sans', Arial, sans-serif;
 .clearfix:after { clear: both; }
 
 body {
-	background: $color_secondary;
+	background:#F5F5F5 !important /*$color_secondary*/;
 	color: #7b7b7b;
 	font-weight: 400;
 	font-size: 16px;
@@ -53,6 +53,7 @@ button:focus {
 
 /* Sidebar */
 .sidebar {
+	z-index: -1 !important ;
 	text-align: center;
 	background: $color_primary;
 	z-index: 1000;
