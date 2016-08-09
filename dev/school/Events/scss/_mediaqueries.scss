@@ -1,3 +1,4 @@
+
 /* Viewport sizes based on column number and sidebar */
 $viewport_xs: 	$item_width + $sidebar_width; /* 1 column */
 $viewport_s: 	$item_width * 2 + $sidebar_width; /* 2 columns */
@@ -15,8 +16,10 @@ $viewport_xxl: 	$item_width * 6 + $sidebar_width; /* 6 columns */
 	}
 
 	.main {
+		align-self:center ;
 		height: 100%;
-		margin-left: $sidebar_width;
+		margin-left: 100px ;
+		margin-right: 100px !important;
 	}
 
 	.content__item {
