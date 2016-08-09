@@ -5,11 +5,6 @@ body {
 	height: 100%;
 }
 
-.aParent div {
-  float: left;
-  clear: none; 
-}
-
 .container {
 	position: relative;
 	overflow: hidden;
