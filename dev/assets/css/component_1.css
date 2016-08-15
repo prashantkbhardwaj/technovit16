@@ -94,6 +94,20 @@
 	font-size: 30px;
 	z-index: 5 ;
 }
+@media screen and (max-width: 700px){
+	#clockdiv{
+	position: fixed ;
+	top: 80vh ;
+	left: 25vw ;
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+	z-index: 5 ;
+}	
+}
 
 
 #clockdiv > div{
