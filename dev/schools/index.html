@@ -1,248 +1,579 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Book Preview with BookBlock</title>
-		<meta name="description" content="Book Preview with BookBlock" />
-		<meta name="keywords" content="BookBlock, book preview, look inside, css, transforms, animations, css3, 3d, perspective, fullscreen" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div id="scroll-wrap" class="container">
-			<header class="codrops-header">
-				<h1>Schools<span>with <a href="http://tympanus.net/codrops/2012/09/03/bookblock-a-content-flip-plugin/">Events</a></span></h1>	
-			</header>
-			<div class="main">
-				<div id="bookshelf" class="bookshelf">
-					<figure>
-						<div class="book" data-book="book-1"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>SCSE <span>Lorem ipsum</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Lorem</li>
-								<li>ipsum</li>
-								<li>dolor</li>
-							</ul>
-						</div>
-					</figure>
-					<figure>
-						<div class="book" data-book="book-2"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>Select<span>Connectiviteee</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Understanding the life of a worm can be enlightening to anybody. Dive into the micro cosmos of a creeping and burrowing invertebrate and learn how a limbless little creature reaches happiness.</li>
-								<li>Graham Press</li>
-								<li>12.09.2010</li>
-								<li>397 pages</li>
-							</ul>
-						</div>
-					</figure>
-					<figure>
-						<div class="book" data-book="book-8"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>Lemon Rainbow <span>Christa Hausmann</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Graham Press</li>
-								<li>12.09.2010</li>
-								<li>397 pages</li>
-							</ul>
-						</div>
-					</figure>
-					<figure>
-						<div class="book" data-book="book-3"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>Structure and Space <span>Carol Winter</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Graham Press</li>
-								<li>12.09.2010</li>
-								<li>397 pages</li>
-							</ul>
-						</div>
-					</figure>
-					<figure>
-						<div class="book" data-book="book-4"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>The Rock Enigma <span>Walter C. Hamilton</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Graham Press</li>
-								<li>12.09.2010</li>
-								<li>397 pages</li>
-							</ul>
-						</div>
-					</figure>
-					<figure>
-						<div class="book" data-book="book-5"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>An Introduction to Neural Science <span>Simon Abramovich</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Graham Press</li>
-								<li>12.09.2010</li>
-								<li>397 pages</li>
-							</ul>
-						</div>
-					</figure>
-					<figure>
-						<div class="book" data-book="book-6"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>Life in Transit <span>Marina Dokova</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Graham Press</li>
-								<li>12.09.2010</li>
-								<li>397 pages</li>
-							</ul>
-						</div>
-					</figure>
-					<figure>
-						<div class="book" data-book="book-7"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>Architecture <span>Ryan Cooper</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Graham Press</li>
-								<li>12.09.2010</li>
-								<li>397 pages</li>
-							</ul>
-						</div>
-					</figure>
-					<figure>
-						<div class="book" data-book="book-9"></div>
-						<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
-						<figcaption><h2>Digital Nomads <span>Kenny Garcia</span></h2></figcaption>
-						<div class="details">
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Graham Press</li>
-								<li>12.09.2010</li>
-								<li>397 pages</li>
-							</ul>
-						</div>
-					</figure>
-				</div>
-			</div><!-- /main -->
-			<div class="related">
-				<h3>If you enjoyed this demo you might also like:</h3>
-				<a href="http://tympanus.net/Development/AnimatedBooks/">
-					<img src="http://tympanus.net/codrops/wp-content/uploads/2013/07/AnimatedBooks1-300x162.png" />
-					<h3>Animated Books</h3>
-				</a>
-				<a href="http://tympanus.net/Development/3DBookShowcase/">
-					<img src="http://tympanus.net/codrops/wp-content/uploads/2013/01/3DBookShowcase_Main-300x162.jpg" />
-					<h3>3D Book Showcase</h3>
-				</a>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>technovit'16 | Schools & Events</title>
+	<meta name="description" content="technovit 2016" />
+	<meta name="keywords" content="technovit 2016 schools and events, VIT Chennai technovit 2016" />
+	<meta name="author" content="Prashant Bhardwaj" />
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<div id="scroll-wrap" class="container">
+		<header class="codrops-header">
+			<h1>Schools<span>and Events</span></h1>	
+		</header>
+		<div class="main">
+			<div id="bookshelf" class="bookshelf">
+				<figure>
+					<div class="book" data-book="book-1"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>QUBIT<span>SCSE</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</li>
+							<li>Lorem</li>
+							<li>ipsum</li>
+							<li>dolor</li>
+						</ul>
+					</div>
+				</figure>
+				<figure>
+					<div class="book" data-book="book-2"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>CONNECTIVITEEE<span>SENSE & SELECT</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Understanding the life of a worm can be enlightening to anybody. Dive into the micro cosmos of a creeping and burrowing invertebrate and learn how a limbless little creature reaches happiness.
+							</li>
+							<li>Graham Press</li>
+							<li>12.09.2010</li>
+							<li>397 pages</li>
+						</ul>
+					</div>
+				</figure>
+				<figure>
+					<div class="book" data-book="book-8"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>DISENO<span>SMBS</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</li>
+							<li>Graham Press</li>
+							<li>12.09.2010</li>
+							<li>397 pages</li>
+						</ul>
+					</div>
+				</figure>
+				<figure>
+					<div class="book" data-book="book-3"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>VITNESS<span>LAW SCHOOL</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</li>
+							<li>Graham Press</li>
+							<li>12.09.2010</li>
+							<li>397 pages</li>
+						</ul>
+					</div>
+				</figure>
+				<figure>
+					<div class="book" data-book="book-4"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>TYKUN<span>B SCHOOL</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</li>
+							<li>Graham Press</li>
+							<li>12.09.2010</li>
+							<li>397 pages</li>
+						</ul>
+					</div>
+				</figure>
+				<!--<figure>
+					<div class="book" data-book="book-5"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>An Introduction to Neural Science <span>Simon Abramovich</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</li>
+							<li>Graham Press</li>
+							<li>12.09.2010</li>
+							<li>397 pages</li>
+						</ul>
+					</div>
+				</figure>
+				<figure>
+					<div class="book" data-book="book-6"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>Life in Transit <span>Marina Dokova</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</li>
+							<li>Graham Press</li>
+							<li>12.09.2010</li>
+							<li>397 pages</li>
+						</ul>
+					</div>
+				</figure>
+				<figure>
+					<div class="book" data-book="book-7"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>Architecture <span>Ryan Cooper</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</li>
+							<li>Graham Press</li>
+							<li>12.09.2010</li>
+							<li>397 pages</li>
+						</ul>
+					</div>
+				</figure>
+				<figure>
+					<div class="book" data-book="book-9"></div>
+					<div class="buttons"><a href="#">Look inside</a><a href="#">Details</a></div>
+					<figcaption><h2>Digital Nomads <span>Kenny Garcia</span></h2></figcaption>
+					<div class="details">
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</li>
+							<li>Graham Press</li>
+							<li>12.09.2010</li>
+							<li>397 pages</li>
+						</ul>
+					</div>
+				</figure>-->
 			</div>
-		</div><!-- /container -->
+		</div><!-- /main -->
+		
+	</div><!-- /container -->
 
-		<!-- Fullscreen BookBlock -->
-		<!-- for demo purpose we repeat each bookblock -->
-		<div class="bb-custom-wrapper" id="book-1">
-			<div class="bb-bookblock">
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-3">
-						<div>
-							<h3>SCSE</h3>
-							<p>School of computing science</p>
+	<!-- Fullscreen BookBlock -->
+	<!-- for demo purpose we repeat each bookblock -->
+
+
+
+
+	<div class="bb-custom-wrapper" id="book-1">
+		<div class="bb-bookblock">
+			<div class="bb-item">
+				<div class="bb-custom-side page-layout-3">
+					<div>
+						<h3>SCSE</h3>
+						<p>School of computing science</p>
+					</div>
+				</div>
+				<div class="bb-custom-side page-layout-3">
+				</div>
+			</div>
+			<!-- EVent 1 in scse -->
+
+			<div class="bb-item">
+				<div class="bb-custom-side page-layout-1">
+					<h3>
+						Formal<span>Virtual Stock Market :</span>
+					</h3>
+				</div>
+				<div class="bb-custom-side page-layout-1">
+					<p>As the name suggests, the competition is a simulation of the actual stock market. Ever had a dream of buying a share in Google? Your dream has come true, though virtually. You will be given virtual money to trade on real stocks like Google, Apple, Berkshire, Hathway etc. Buy, Sell stocks based on how the stock rises and falls!  Competition includes split second decisions and exciting strategies to win big the next day.<br>
+						<b>
+							Rules:</b> Student have to pay up 100 INR. You will require a laptop and an internet connection. Since the competition is online and real time, no formal space is required.  </p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Prastut Kumar</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Dhruv Shah</li>
+							</ul>
 						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-					<div class="bb-custom-side page-layout-3">
+
+
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>The event is similar to a coding competition, where students will get some 
+								programming questions to be solved within a given timeframe.
+								It is an individual event.
+								We except around 30-40 participants
+								Any computer lab with working internet connection will be sufficient. 
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Aman Saha</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Event 2 of 17</footer>
 					</div>
+
+
+					<div class="bb-item">e
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>Quizup</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>Each players should play quiz based on selected topic by Lotte and to play Quizup with each other's
+								Team : 2 (Team)
+
+								Expected participants:40
+								Round details:
+								20vs20(round1)no elimination
+								20vs20(round2)elimination 10
+								15vs15(round3)elimination 12
+								9vs9(round4)elimination 10
+								4vs4(round5)elimination4
+								2vs2(round6)elimination 2
+								1 vs 1winner and runner are chosen up
+
+								Requirements:1gb+1gb mobile data
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Wiselin : 8056646143</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Sharminesh : 8438526665 </li>
+							</ul>
+
+						</div>
+						<footer class="bb-item-footer">Event 3 of 17</footer>
+					</div>
+
+
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>FORM A PY</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>DESCRIPTION:
+								in this event scrambles python codes will be given to the participants and they will have to arrange it in the time given. The person who arranges first will be declared as the winner and will be awarded in cash.
+
+								RULES:
+								1) pen or pencil will be provided by out team members only.
+								2) maximum a team of two is allowed.
+								3) the participants are forbidden to carry any piece of paper with them.
+								4) if a participant is caught cheating he will be disqualified immediately.
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">ABHAY KHERA </li>
+							</ul>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">LAKSHYA SURI  </li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Event 4 of 17</footer>
+					</div>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>Facebook Bingo</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>Its an events which correlate with the theme smarter city where people are need to upload their photographs in Facebook based on the theme while registering they should give their Facebook id people with more likes will be the winner.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Supraja.M</li>
+							</ul>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Pavithra.G.K</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Event 5 of 17</footer>
+					</div>
+
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>Digi-- WASTE USER</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>Participants can be of 1 to 3 in this game candidate has to make something innovative .it includes waste bottles, waste icecream stick, waste cloth, wrapers.
+								glue, fevistick, cello tape
+
+								rules: Don't spend money, don't try to arrange things from outside or friends. Don't copy idea of fellows.
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Geetanjli
+									Khatter
+								</li>
+
+							</div>
+							<footer class="bb-item-footer">Event 6 of 17</footer>
+						</div>
+
+						<div class="bb-item">
+							<div class="bb-custom-side page-layout-1">
+								<h3>
+									Formal<span>Digi-“Sesay”</span>
+								</h3>
+							</div>
+							<div class="bb-custom-side page-layout-1">
+								<p>no info.</p>
+								<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">Gogul sharath </li>
+								</ul>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">Hariprasad</li>
+								</ul>
+							</div>
+							<footer class="bb-item-footer">Event 7 of 17</footer>
+						</div>
+
+						<div class="bb-item">
+							<div class="bb-custom-side page-layout-1">
+								<h3>
+									Formal<span>Reverse Coding</span>
+								</h3>
+							</div>
+							<div class="bb-custom-side page-layout-1">
+								<p> no info.</p>
+								<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">Rohit : 9843635842</li>
+								</ul>
+
+							</div>
+							<footer class="bb-item-footer">Event 8 of 17</footer>
+						</div>
+
+						<div class="bb-item">
+							<div class="bb-custom-side page-layout-1">
+								<h3>
+									Formal<span>Counter Mania</span>
+								</h3>
+							</div>
+							<div class="bb-custom-side page-layout-1">
+								<p>Identify the technical logo and TechTalk for a minute on the given topic.</p>
+								<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+
+							</div>
+							<footer class="bb-item-footer">Event 9 of 17</footer>
+						</div>
+
+						<div class="bb-item">
+							<div class="bb-custom-side page-layout-1">
+								<h3>
+									Formal<span>Mr.Robot</span>
+								</h3>
+							</div>
+							<div class="bb-custom-side page-layout-1">
+								<p>Talk is cheap, fix the bug. It is an individual event where one needs to find and fix the bugs from the given snippets of code</p>
+								<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">Aman Saha </li>
+								</ul>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">Prateek Singh </li>
+								</ul>
+							</div>
+							<footer class="bb-item-footer">Event 10 of 17</footer>
+						</div>
+
+						<div class="bb-item">
+							<div class="bb-custom-side page-layout-1">
+								<h3>
+									Formal<span>IoT-based SmartHome Makeathon</span>
+								</h3>
+							</div>
+							<div class="bb-custom-side page-layout-1">
+								<p>Participants should come up with an idea which will be a useful consumer product for smarthomes and build it at the venue in under 24 hours.
+
+									2 to 5 team members.
+									30 to 40 expected participants.
+									Participants should bring their own components and laptops.
+								</p>
+								<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">PRATHAP K V </li>
+								</ul>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">PRANAVCHENDUR T K </li>
+								</ul>
+							</div>
+							<footer class="bb-item-footer">Event 11 of 17</footer>
+						</div>
+
+						<div class="bb-item">
+							<div class="bb-custom-side page-layout-1">
+								<h3>
+									Gaming<span>	Counter-Strike:Source</span>
+								</h3>
+							</div>
+							<div class="bb-custom-side page-layout-1">
+								<p>Counter-Strike Source PC LAN Game
+									Rules:5 per team, Internationally Accepted Counter Strike Rules, Lottery Map selection.
+
+									Expected number of participants: 50-80.
+
+									Requirements: Server and LAN cables from CTS. A Lab room with adequate power supply.
+								</p>
+								<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">Deepanjan Mukherjee </li>
+								</ul>
+								<ul style="text-align:center;">
+									<li style="list-style-type:none;">Ronak Parmaar </li>
+								</ul>
+							</ul>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Nirmal Prabhat Agrawal  </li>
+							</ul>
+						</ul>
+						<ul style="text-align:center;">
+							<li style="list-style-type:none;">Anirban Dey  </li>
+						</ul>
+					</div>
+					<footer class="bb-item-footer">Event 12 of 17</footer>
+				</div>
+
+				<div class="bb-item">
+					<div class="bb-custom-side page-layout-1">
+						<h3>
+							Gaming<span>FIFA 16</span>
+						</h3>
+					</div>
+					<div class="bb-custom-side page-layout-1">
+						<p>Knockout round of singles</p>
+						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+						<ul style="text-align:center;">
+							<li style="list-style-type:none;">Aaditya singh Rana/Mayur Jain</li>
+						</ul>
+
+					</div>
+					<footer class="bb-item-footer">Event 13 of 17</footer>
+				</div>
+
+				<div class="bb-item">
+					<div class="bb-custom-side page-layout-1">
+						<h3>
+							Gaming<span>3.	Call Of Duty Modern Warfare(Gaming)</span>
+						</h3>
+					</div>
+					<div class="bb-custom-side page-layout-1">
+						<p>A team of 4 go against each other in one of the most trending games. The last standing team will be the winner. Laptops will brought by the participants.
+
+							A router is required to connect the systems. 50-
+
+							100 is the expected number of participants.
+						</p>
+						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+						<ul style="text-align:center;">
+							<li style="list-style-type:none;">Praveen Kumar B </li>
+						</ul>
+						<ul style="text-align:center;">
+							<li style="list-style-type:none;">Vignesh N </li>
+						</ul>
+						<ul style="text-align:center;">
+							<li style="list-style-type:none;">Balaji </li>
+						</ul>
+					</div>
+					<footer class="bb-item-footer">Event 14 of 17</footer>
+				</div>
+
+				<div class="bb-item">
+					<div class="bb-custom-side page-layout-1">
+						<h3>
+							Informal<span>Mini militia</span>
+						</h3>
+					</div>
+					<div class="bb-custom-side page-layout-1">
+						<p>A Game Event with team of 4 Min 3. Two teams will be fighted and it goes to final like tree structure. No requirements</p>
+						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+						<ul style="text-align:center;">
+							<li style="list-style-type:none;">Deepesh</li>
+						</ul>
+
+					</div>
+					<footer class="bb-item-footer">Event 15 of 17</footer>
 				</div>
 				<div class="bb-item">
 					<div class="bb-custom-side page-layout-1">
 						<h3>
-							Formal<span>codeslam</span>
+							Informal<span>DOODLE 2.O</span>
 						</h3>
 					</div>
 					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+						<p>Upgraded Version Of Doodle - > Doodle2.0  
+							Fun Games
+						</p>
 						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
 						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							<li style="list-style-type:none;">THIRUKUMARAN J</li>
+						</ul>
+						<ul style="text-align:center;">
+							<li style="list-style-type:none;">THIRUNAVUKARASU</li>
 						</ul>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
+					<footer class="bb-item-footer">Event 16 of 17</footer>
 				</div>
+
 				<div class="bb-item">
 					<div class="bb-custom-side page-layout-1">
 						<h3>
-							Formal<span>codeslam</span>
+							Informal<span>Speak Eat Repeat</span>
 						</h3>
 					</div>
 					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+						<p>Should speak continously using movie dialogues only 
+							Should eat 5 plates of panipuri and drink pepsi bottom sip
+							Should answer irrelevantly to the questions asked by the co ordinator
+							Team size: 4
+							Expected number of participants: 70
+							Requirements: panipoori, mike, speaker,pepsi 
+						</p>
 						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
 						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							<li style="list-style-type:none;">Keerthi. V,Vijayalakshmi.S, Arunashree A,Nandhini.M</li>
 						</ul>
+
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
+					<footer class="bb-item-footer">Event 17 of 17</footer>
 				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
+
+
 			</div><!-- /bb-bookblock -->
+
 			<nav>
 				<a href="#" class="bb-nav-prev">Previous</a>
 				<a href="#" class="bb-nav-next">Next</a>
 				<a href="#" class="bb-nav-close">Close</a>
 			</nav>
 		</div><!-- /bb-custom-wrapper -->
+
+
+
 		<div class="bb-custom-wrapper" id="book-2">
 			<div class="bb-bookblock">
 				<div class="bb-item">
@@ -255,497 +586,901 @@
 					<div class="bb-custom-side page-layout-3">
 					</div>
 				</div>
+
+
 				<div class="bb-item">
 					<div class="bb-custom-side page-layout-1">
 						<h3>
-							Formal<span>codeslam</span>
+							Informal<span>VIRTUAL REALITY</span>
 						</h3>
 					</div>
 					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+						<p>As cities dive into virtuality, it wouldn’t be fair unless we had our share of it, thus presenting,
+
+							Virtual Reality.
+
+							Virtual Reality alongside Augmented Reality is taking the world by storm. This event
+
+							introduces students to the world of VR technology using the Google Cardboard. Select your
+
+							choice of excitement or terror among a choice of the best applications available. Have a fright
+
+							in our virtual haunted houses, or speed down our mining tunnel in pixelated train cars, or
+
+							scavenge your way through a thick wild jungle, the king cats breathing down the back of your
+
+							neck. Step up and experience mind-boggling 360 degree virtual reality for a thriller
+
+							experience.
+						</p>
 						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
 						<ul style="text-align:center;">
 							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
 						</ul>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
+					<footer class="bb-item-footer">Event 1 of 11</footer>
+
+				</div><!-- /bb-bookblock -->
+
 				<div class="bb-item">
 					<div class="bb-custom-side page-layout-1">
 						<h3>
-							Formal<span>codeslam</span>
+							Inormal<span>SHERLOCK OHMS</span>
 						</h3>
 					</div>
 					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+						<p>“My mind rebels at stagnation, give me problems, give me work!”
+
+							Get ready, put on your hats, and for heaven’s sake, Watson, get over here! Sherlock Ohms is
+
+							no ordinary game… in fact “it’s quite a three pipe problem”. This event is designed to test
+
+							your quick-thinking, observation, as well as technical skills. Play a Sherlock Holmes starring
+
+							in an electrical world, and solve riddles and crimes to win.
+
+							“The question is not if, but how. The Game is afoot.”
+
+
+						</p>
+
 						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
 						<ul style="text-align:center;">
 							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
 						</ul>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
+					<footer class="bb-item-footer">Event 2 of 11</footer>
+				</div><!-- /bb-bookblock -->
+
 				<div class="bb-item">
 					<div class="bb-custom-side page-layout-1">
 						<h3>
-							Formal<span>codeslam</span>
+							Informal<span>MATH-E-TRONICS</span>
 						</h3>
 					</div>
 					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+						<p>As we move forward towards new technology and inventions, and with the idea of smart city driving us to a better tomorrow, there is a need to learn a smart way to design our circuits to meet their needs. For those aspiring for circuit designing, but have no clue where to start, Mathetronics is your place to be. A great way to stay “connected’, it is a two day tutorial class workshop, the first day being about the basics of circuit design, and the second an on-screening and team selection (based on a 3 round competition). Teams of two will go through a three questionnaire rounds, the first two being 10 questions in 30 minutes. The last round will have 10 questions for a time period of 60 minutes. Selection of the team will be based on successfully solving of the problem in the shortest time period.	Periodic eliminations will take place between the rounds, sending only half its competitors onwards, and 4 teams for the final round.
+						</p>
 						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
 						<ul style="text-align:center;">
 							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
 						</ul>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
+					<footer class="bb-item-footer">event 3 of 11</footer>
+
+				</div><!-- /bb-bookblock -->
+
 				<div class="bb-item">
 					<div class="bb-custom-side page-layout-1">
 						<h3>
-							Formal<span>codeslam</span>
+							Informal<span>LAST MAN STANDING</span>
 						</h3>
 					</div>
 					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+						<p>With our cities becoming “smarter”, we are compelled to keep up, now more than ever. Life
+
+							after university for engineers everywhere depends on those crucial few days of campus
+
+							placements and job interviews. Last Man Standing aims to put the “smart” in you.
+
+							This involving event is all about getting you ready for your placements. What better way to
+
+							do that than to simulate the whole process starting with a technical round, consisting of a pen
+
+							and paper test, focusing on both quantitative and verbal reasoning. Followed, will be a
+
+							‘Group discussion’ where in batches of eight, the candidates will brainstorm and present their
+
+							points and opinions on various ingenious topics. The final round is the real deal, a mock
+
+							interview conducted by a HR from a reputable firm. The last man standing, who finally lands
+
+							the job will be declared the winner.
+
+							We look forward to testing your communication and leadership skills, your ability to work in
+
+							a team, and, of course technical, interpersonal and problem solving skills as well. Your
+
+							enthusiastic participation in this event will definitely give you a good chance at nailing your
+
+							real placements! So get started, get formal and sell your amazing personality at this event!
+						</p>
 						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
 						<ul style="text-align:center;">
 							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
 						</ul>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
+					<footer class="bb-item-footer">event 4 of 11</footer>
 				</div>
+
+
 				<div class="bb-item">
 					<div class="bb-custom-side page-layout-1">
 						<h3>
-							Formal<span>codeslam</span>
+							Informal<span>DEATH RACE v2.0</span>
 						</h3>
 					</div>
 					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+						<p>Do YOU have the world’s most DEADLY robot? Are YOU ready to CRUSH YOUR
+
+							OPPONENT? Are you READY TO WIN, FIGHT till the end, fight till DEATH?
+
+							If that’s so, YOU are in the right place. Welcome to connectiVITieee’16‘s very own DEATH
+
+							RACE! Brace yourselves to experience the ultimate battle of blades, chainsaws, lasers, and
+
+							mighty pushes, a war of brains and brawn, and robot possessed devils themselves. This time,
+
+							we’re taking the Death Race to a whole new level! Don’t say we didn’t warn you.<br>
+							The Death Race comprises of two levels of competition. The first, themed as ‘Fast &amp; Furious,
+
+							is a RoboRace. The bot must overcome the various hurdles within the time-limit and reach
+
+							the final checkpoint. Teams may choose to skip a hurdle at the cost of obtaining a penalty.
+
+							The second, is themed as RoboWar. Every team’s robot must bear a minimum of one
+
+							weapon. Explosive weapons are not allowed. This is a point-based level. The winner will be
+
+							decided based on scores from both the levels.
+						</p>
 						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
 						<ul style="text-align:center;">
 							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
 						</ul>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-			</div><!-- /bb-bookblock -->
-			<nav>
-				<a href="#" class="bb-nav-prev">Previous</a>
-				<a href="#" class="bb-nav-next">Next</a>
-				<a href="#" class="bb-nav-close">Close</a>
-			</nav>
-		</div><!-- /bb-custom-wrapper -->
-		<div class="bb-custom-wrapper" id="book-3">
-			<div class="bb-bookblock">
+					<footer class="bb-item-footer">Event 5 of 11</footer>
+
+				</div><!-- /bb-bookblock -->											
+
 				<div class="bb-item">
-					<div class="bb-custom-side page-layout-3">
-						<div>
-							<h3>Portraits</h3>
-							<p>Photography (1999 &ndash; 2013)</p>
+					<div class="bb-custom-side page-layout-1">
+						<h3>
+							Informal<span>BOMB DIFFUSAL</span>
+						</h3>
+					</div>
+					<div class="bb-custom-side page-layout-1">
+
+
+						<p>
+							Its a game of 3 person as a team and upto 10-15 group compete
+
+							with each other at a time.<br>
+
+
+							We will have buzzer circuit and it have 5 wires and team will be
+
+							given 2 chances to cut the correct and diffuse a bomb.<br>
+							We will spread out volunteers all over the campus and volunteers
+
+							have some clue regarding correct wire. So we will give some
+
+							identification or some clues about out volunteers, about their dress
+
+							code hair etc. to team.<br>
+							So team have to first find the volunteers and then they have to get
+
+							the hint about diffusing the bomb and then diffuse the bomb.
+
+
+
+
+
+						</p>
+						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+						<ul style="text-align:center;">
+							<li style="list-style-type:none;">Rishi Raj Gupta : 8853705152</li>
+							<li style="list-style-type:none;">Mukul Dwivedi :
+								9094115812</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Event 6 of 11</footer>
+					</div><!-- /bb-bookblock -->
+
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Informal<span>ÈLÈCTROCRAN</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>
+
+								Participants will participate in team of TWO.<br>
+
+								Event will be organized in THREE rounds. (2 Rounds + Finale)<br>
+
+								In the first round, a circuit will be displayed; contestants from both the teams will reverse bet
+
+								the time they would require to implement that circuit. If a team feels that opponent team is
+
+								under betting time, they can challenge opponent team to walk the talk.<br>
+
+								On being challenged, the team members would have to implement that circuit within betted
+
+								time; if they succeed, they win else the challenging team wins.<br>
+
+								Second round will follow same pattern.<br>
+
+								Third round will be FINALE. Winner teams from second round will have to build the
+
+								displayed circuit. Whoever is fastest wins.<br>
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Rujuta Barve : 92233 80868</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Deepraj Chatterjee : 90877 77248</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Phani Sandeep : 85006 12153</li>
+							</ul>
+
+
+						</div>
+						<footer class="bb-item-footer">Event 7 of 11</footer>
+					</div><!-- /bb-bookblock -->
+
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Informal<span>ROBOMAZE</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>The event is a race event where the fastest line follower bot will be awarded
+
+								the first prize. It consists of two rounds where in each team is given single try
+
+								in each round.
+
+								The first round is before lunch and the next will be after the lunch.
+
+								Each team may consist maximum of 4 members.<br>
+								The winner will be decided on who completes the track fastest. The
+
+								track’s image is given below.
+
+								Track width is 30mm. The starting point and the finishing points are
+
+								represented as ‘S’ and ‘F’.
+
+								Each team has a balance of 50 points (subject to change). These points
+
+								will be considered in case when there is a tie.
+
+								Track consists of two checkpoints. They are represented as ‘C1’ and ‘C2’.
+
+								The bots must pass through C1 and C2. Crossing these checkpoints
+
+								would result in awarding of 10 points.<br>
+								The race will be considered as a tie if the time taken by two or more
+
+								teams is same (highly unlikely), or if the team is not able to complete it
+
+								in the allotted time (8 mins).
+
+								The points will be deducted on these basis:
+
+								If the bot goes offline – 5 points
+
+								Per touch – 2 points
+
+								If the bot takes wrong path – 7 points
+
+								In case of tie, the above criteria will follow and the winner will be the
+
+								one with more points.
+
+
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Garvit Gugnani</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Akif Nawaz</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Event 8 of 11</footer>
+					</div><!-- /bb-bookblock -->
+
+
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Informal<span>TECHBUZZ</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>
+
+								ROUND 1(PEN AND PAPER)- Questions will be displayed by the projector in front of participants. All
+
+								the questions will be same for everyone. We are planning to give 10 questions and some bonus questions
+
+								,with marks accordingly. The 6 teams(may vary according to the strength) getting maximum marks will
+
+								move in the next round.<br>
+
+								ROUND2(RAPID FIRE INDIVIDUAL )-A team will be given 90 seconds to answer the maximum
+
+								number questions. Top 3 teams will move to the final round. Evaluation will be based on the number of
+
+								questions they answer and also the time they take.<br>
+
+								ROUND 3(FINAL QUESTIONAIRE)-It will be a buzzer round in which questions will be asked by us
+
+								in words(not displayed). The questions will be limited and teams have to press a buzzer( in mobile phone
+
+								via app) in order to get a power to answer, that too in a specified time.
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">AKANKSHA : 7708394084</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">DEVASNHU SAXENA : 9087720177</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">SHIKHAR SHUKLA : 9941440593</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">ANANTHA NITHIN RAJ : 9500085033</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Event 9 of 11</footer>
+					</div><!-- /bb-bookblock -->
+
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Informal<span>WORDSMITH</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p> Maximum of 3 round.
+
+								Will take 2 hours.
+
+								Mobile phones and dictionary are prohibited.
+
+								Individual participation.
+
+								Entry fee -50rupees.
+
+								30 minutes prior the competition participants must be
+
+								assembled.
+
+								Each round will have seven words to smith.
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Mohammed Thaha: 9092860835</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Abhinay Aman : 8190846897</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Rashi Gupta : 9092962692</li>
+							</ul>
+
+
+						</div>
+						<footer class="bb-item-footer">Event 10 of 11</footer>
+					</div><!-- /bb-bookblock -->
+
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Informal<span>FORENSIC</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p> Team of 4 members
+
+								There will be two rounds
+
+								In final round only 15-20 teams will be selected according
+
+								to the no of participations.
+
+								For the selection of final round each team will be asked to
+
+								investigate the crime scene and will be asked to enquire
+
+								2-3 suspects and accordingly who has been murdered
+
+								and some kind of twisted questions will be asked from
+
+								them like what do u think might has happen and they have
+
+								to write it down on a paper and they will be interviewed by
+
+								us as to what they think and accordingly we will select the
+
+								teams going to the second round if we think that they are
+
+								close to the story we have made , then 15-20 teams will
+
+								be selected accordingly and they will play the for the rest
+
+								of the investigation and there will be twist and turns also in
+
+								final round.
+							</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">KARISHMA : 9962407586</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">TEJAL KETKAR : 9092815857</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">TUISHA SINGH : 9962411053</li>
+							</ul>
+
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">ROBIN SINGH: 9560062376</li>
+							</ul>
+
+
+						</div>
+						<footer class="bb-item-footer">Event 11 of 11</footer>
+					</div><!-- /bb-bookblock -->
+
+				</div>	
+				<nav>
+					<a href="#" class="bb-nav-prev">Previous</a>
+					<a href="#" class="bb-nav-next">Next</a>
+					<a href="#" class="bb-nav-close">Close</a>
+				</nav>	
+
+			</div><!-- /bb-custom-wrapper -->
+
+			<div class="bb-custom-wrapper" id="book-3">
+				<div class="bb-bookblock">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-3">
+							<div>
+								<h3>Portraits</h3>
+								<p>Photography (1999 &ndash; 2013)</p>
+							</div>
+						</div>
+						<div class="bb-custom-side page-layout-3">
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-3">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-			</div><!-- /bb-bookblock -->
-			<nav>
-				<a href="#" class="bb-nav-prev">Previous</a>
-				<a href="#" class="bb-nav-next">Next</a>
-				<a href="#" class="bb-nav-close">Close</a>
-			</nav>
-		</div><!-- /bb-custom-wrapper -->
-		<div class="bb-custom-wrapper" id="book-4">
-			<div class="bb-bookblock">
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-3">
-						<div>
-							<h3>Portraits</h3>
-							<p>Photography (1999 &ndash; 2013)</p>
+				</div><!-- /bb-bookblock -->
+				<nav>
+					<a href="#" class="bb-nav-prev">Previous</a>
+					<a href="#" class="bb-nav-next">Next</a>
+					<a href="#" class="bb-nav-close">Close</a>
+				</nav>
+			</div><!-- /bb-custom-wrapper -->
+			<div class="bb-custom-wrapper" id="book-4">
+				<div class="bb-bookblock">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-3">
+							<div>
+								<h3>Portraits</h3>
+								<p>Photography (1999 &ndash; 2013)</p>
+							</div>
+						</div>
+						<div class="bb-custom-side page-layout-3">
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-3">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-			</div><!-- /bb-bookblock -->
-			<nav>
-				<a href="#" class="bb-nav-prev">Previous</a>
-				<a href="#" class="bb-nav-next">Next</a>
-				<a href="#" class="bb-nav-close">Close</a>
-			</nav>
-		</div><!-- /bb-custom-wrapper -->
-		<div class="bb-custom-wrapper" id="book-5">
-			<div class="bb-bookblock">
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-3">
-						<div>
-							<h3>Portraits</h3>
-							<p>Photography (1999 &ndash; 2013)</p>
+				</div><!-- /bb-bookblock -->
+				<nav>
+					<a href="#" class="bb-nav-prev">Previous</a>
+					<a href="#" class="bb-nav-next">Next</a>
+					<a href="#" class="bb-nav-close">Close</a>
+				</nav>
+			</div><!-- /bb-custom-wrapper -->
+			<div class="bb-custom-wrapper" id="book-5">
+				<div class="bb-bookblock">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-3">
+							<div>
+								<h3>Portraits</h3>
+								<p>Photography (1999 &ndash; 2013)</p>
+							</div>
+						</div>
+						<div class="bb-custom-side page-layout-3">
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-3">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-			</div><!-- /bb-bookblock -->
-			<nav>
-				<a href="#" class="bb-nav-prev">Previous</a>
-				<a href="#" class="bb-nav-next">Next</a>
-				<a href="#" class="bb-nav-close">Close</a>
-			</nav>
-		</div><!-- /bb-custom-wrapper -->
-		<div class="bb-custom-wrapper" id="book-6">
-			<div class="bb-bookblock">
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-3">
-						<div>
-							<h3>Portraits</h3>
-							<p>Photography (1999 &ndash; 2013)</p>
+				</div><!-- /bb-bookblock -->
+				<nav>
+					<a href="#" class="bb-nav-prev">Previous</a>
+					<a href="#" class="bb-nav-next">Next</a>
+					<a href="#" class="bb-nav-close">Close</a>
+				</nav>
+			</div><!-- /bb-custom-wrapper -->
+			<div class="bb-custom-wrapper" id="book-6">
+				<div class="bb-bookblock">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-3">
+							<div>
+								<h3>Portraits</h3>
+								<p>Photography (1999 &ndash; 2013)</p>
+							</div>
+						</div>
+						<div class="bb-custom-side page-layout-3">
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-3">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
 					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-			</div><!-- /bb-bookblock -->
-			<nav>
-				<a href="#" class="bb-nav-prev">Previous</a>
-				<a href="#" class="bb-nav-next">Next</a>
-				<a href="#" class="bb-nav-close">Close</a>
-			</nav>
-		</div><!-- /bb-custom-wrapper -->
-		<div class="bb-custom-wrapper" id="book-7">
-			<div class="bb-bookblock">
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-3">
-						<div>
-							<h3>Portraits</h3>
-							<p>Photography (1999 &ndash; 2013)</p>
+				</div><!-- /bb-bookblock -->
+				<nav>
+					<a href="#" class="bb-nav-prev">Previous</a>
+					<a href="#" class="bb-nav-next">Next</a>
+					<a href="#" class="bb-nav-close">Close</a>
+				</nav>
+			</div><!-- /bb-custom-wrapper -->
+			<div class="bb-custom-wrapper" id="book-7">
+				<div class="bb-bookblock">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-3">
+							<div>
+								<h3>Portraits</h3>
+								<p>Photography (1999 &ndash; 2013)</p>
+							</div>
+						</div>
+						<div class="bb-custom-side page-layout-3">
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-3">
-					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Chapter 9 <span>Nomadic Lifestyle</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>Candy canes lollipop macaroon marshmallow gummi bears tiramisu. Dessert croissant cupcake candy canes. Bear claw faworki faworki lemon drops. Faworki marzipan sugar plum jelly-o marzipan cookie.</p>
-					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-2">
-						<div>
-							<h3>Aa</h3>
-							<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Chapter 9 <span>Nomadic Lifestyle</span>
+							</h3>
 						</div>
-						<div>
-							<h3>Bb</h3>
-							<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+						<div class="bb-custom-side page-layout-1">
+							<p>Candy canes lollipop macaroon marshmallow gummi bears tiramisu. Dessert croissant cupcake candy canes. Bear claw faworki faworki lemon drops. Faworki marzipan sugar plum jelly-o marzipan cookie.</p>
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-2">
-						<div>
-							<h3>Cc</h3>
-							<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-2">
+							<div>
+								<h3>Aa</h3>
+								<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+							</div>
+							<div>
+								<h3>Bb</h3>
+								<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+							</div>
 						</div>
-						<div>
-							<h3>Dd</h3>
-							<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
-						</div>
-					</div>
-				</div>
-			</div><!-- /bb-bookblock -->
-			<nav>
-				<a href="#" class="bb-nav-prev">Previous</a>
-				<a href="#" class="bb-nav-next">Next</a>
-				<a href="#" class="bb-nav-close">Close</a>
-			</nav>
-		</div><!-- /bb-custom-wrapper -->
-		<div class="bb-custom-wrapper" id="book-8">
-			<div class="bb-bookblock">
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-3">
-						<div>
-							<h3>Portraits</h3>
-							<p>Photography (1999 &ndash; 2013)</p>
+						<div class="bb-custom-side page-layout-2">
+							<div>
+								<h3>Cc</h3>
+								<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+							</div>
+							<div>
+								<h3>Dd</h3>
+								<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+							</div>
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-3">
-					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Formal<span>codeslam</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
-						<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
-						<ul style="text-align:center;">
-							<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
-						</ul>
-					</div>
-					<footer class="bb-item-footer">Page 1 of 10</footer>
-				</div>
-			</div><!-- /bb-bookblock -->
-			<nav>
-				<a href="#" class="bb-nav-prev">Previous</a>
-				<a href="#" class="bb-nav-next">Next</a>
-				<a href="#" class="bb-nav-close">Close</a>
-			</nav>
-		</div><!-- /bb-custom-wrapper -->
-		<div class="bb-custom-wrapper" id="book-9">
-			<div class="bb-bookblock">
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-3">
-						<div>
-							<h3>Portraits</h3>
-							<p>Photography (1999 &ndash; 2013)</p>
+				</div><!-- /bb-bookblock -->
+				<nav>
+					<a href="#" class="bb-nav-prev">Previous</a>
+					<a href="#" class="bb-nav-next">Next</a>
+					<a href="#" class="bb-nav-close">Close</a>
+				</nav>
+			</div><!-- /bb-custom-wrapper -->
+			<div class="bb-custom-wrapper" id="book-8">
+				<div class="bb-bookblock">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-3">
+							<div>
+								<h3>Portraits</h3>
+								<p>Photography (1999 &ndash; 2013)</p>
+							</div>
+						</div>
+						<div class="bb-custom-side page-layout-3">
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-3">
-					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-1">
-						<h3>
-							Chapter 9 <span>Nomadic Lifestyle</span>
-						</h3>
-					</div>
-					<div class="bb-custom-side page-layout-1">
-						<p>Candy canes lollipop macaroon marshmallow gummi bears tiramisu. Dessert croissant cupcake candy canes. Bear claw faworki faworki lemon drops. Faworki marzipan sugar plum jelly-o marzipan cookie.</p>
-					</div>
-				</div>
-				<div class="bb-item">
-					<div class="bb-custom-side page-layout-2">
-						<div>
-							<h3>Aa</h3>
-							<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
 						</div>
-						<div>
-							<h3>Bb</h3>
-							<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
+					</div>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
+					</div>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Formal<span>codeslam</span>
+							</h3>
+						</div>
+						<div class="bb-custom-side page-layout-1">
+							<p>An online coding event made to happen on its own platform. Students will be given some problems to code and the student who does it first will win.</p>
+							<h2 style="padding-left:20px; text-align:center;">Coordinators</h2>
+							<ul style="text-align:center;">
+								<li style="list-style-type:none;">Kumar Shubham : 9790717731</li>
+							</ul>
+						</div>
+						<footer class="bb-item-footer">Page 1 of 10</footer>
+					</div>
+				</div><!-- /bb-bookblock -->
+				<nav>
+					<a href="#" class="bb-nav-prev">Previous</a>
+					<a href="#" class="bb-nav-next">Next</a>
+					<a href="#" class="bb-nav-close">Close</a>
+				</nav>
+			</div><!-- /bb-custom-wrapper -->
+			<div class="bb-custom-wrapper" id="book-9">
+				<div class="bb-bookblock">
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-3">
+							<div>
+								<h3>Portraits</h3>
+								<p>Photography (1999 &ndash; 2013)</p>
+							</div>
+						</div>
+						<div class="bb-custom-side page-layout-3">
 						</div>
 					</div>
-					<div class="bb-custom-side page-layout-2">
-						<div>
-							<h3>Cc</h3>
-							<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-1">
+							<h3>
+								Chapter 9 <span>Nomadic Lifestyle</span>
+							</h3>
 						</div>
-						<div>
-							<h3>Dd</h3>
-							<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+						<div class="bb-custom-side page-layout-1">
+							<p>Candy canes lollipop macaroon marshmallow gummi bears tiramisu. Dessert croissant cupcake candy canes. Bear claw faworki faworki lemon drops. Faworki marzipan sugar plum jelly-o marzipan cookie.</p>
 						</div>
 					</div>
-				</div>
-			</div><!-- /bb-bookblock -->
-			<nav>
-				<a href="#" class="bb-nav-prev">Previous</a>
-				<a href="#" class="bb-nav-next">Next</a>
-				<a href="#" class="bb-nav-close">Close</a>
-			</nav>
-		</div><!-- /bb-custom-wrapper -->
-		<script src="js/bookblock.min.js"></script>
-		<script src="js/classie.js"></script>
-		<script src="js/bookshelf.js"></script>
-	</body>
-</html>
+					<div class="bb-item">
+						<div class="bb-custom-side page-layout-2">
+							<div>
+								<h3>Aa</h3>
+								<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+							</div>
+							<div>
+								<h3>Bb</h3>
+								<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+							</div>
+						</div>
+						<div class="bb-custom-side page-layout-2">
+							<div>
+								<h3>Cc</h3>
+								<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+							</div>
+							<div>
+								<h3>Dd</h3>
+								<p>Faworki marzipan sugar plum jelly-o marzipan. Soufflé tootsie roll jelly beans. Sweet icing croissant dessert bear claw. Brownie dessert cheesecake danish jelly pudding bear claw soufflé.</p>
+							</div>
+						</div>
+					</div>
+				</div><!-- /bb-bookblock -->
+				<nav>
+					<a href="#" class="bb-nav-prev">Previous</a>
+					<a href="#" class="bb-nav-next">Next</a>
+					<a href="#" class="bb-nav-close">Close</a>
+				</nav>
+			</div><!-- /bb-custom-wrapper -->
+			<script src="js/bookblock.min.js"></script>
+			<script src="js/classie.js"></script>
+			<script src="js/bookshelf.js"></script>
+		</body>
+		</html>
