@@ -375,8 +375,32 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/qubitin.jpg) no-repeat top left;
+    background: url(../img/eee.jpg) no-repeat top left;
     background-size: cover;
+}
+
+.qubit{
+    .page-layout-3 ;
+    background:url(../img/cover9.svg);
+    background-repeat: no-repeat;
+}
+
+.diseno{
+    .page-layout-3 ;
+    background:url(../img/smbs2.jpg);
+    background-repeat: no-repeat;
+}
+
+.vitness{
+    .page-layout-3 ;
+    background:url(../img/cover7.svg);
+    background-repeat: no-repeat;
+}
+
+.tykun{
+    .page-layout-3 ;
+    background:url(../img/cover3.svg);
+    background-repeat: no-repeat;
 }
 
 .page-layout-3 div { padding: 10% }
