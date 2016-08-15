@@ -84,9 +84,10 @@
 }
 
 #clockdiv{
-	position: fixed ;
+	position: relative;
 	top: 70vh ;
-	left: 36vw ;
+	left: 10px;
+	/*left: 40vw ;*/
 	font-family: sans-serif;
 	color: #fff;
 	display: inline-block;
