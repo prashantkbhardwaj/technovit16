@@ -11,7 +11,7 @@
 
 .demo-1 .large-header {
 	position: relative;
-	background-image: url('../img/themepage.png');
+	/*background-image: url('../img/themepage.png');*/
 	z-index: 1 !important;
 }
 
@@ -85,7 +85,7 @@
 #clockdiv{
 	position: fixed ;
 	top: 80vh ;
-	left: 35vw ;
+	left: 36vw ;
 	font-family: sans-serif;
 	color: #fff;
 	display: inline-block;
