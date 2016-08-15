@@ -112,6 +112,7 @@ body {
 /* Buttons and figcaption */
 
 .buttons {
+    padding-left: 5em;
     margin-top: 5px;
     text-align: center;
 }
@@ -134,7 +135,7 @@ body {
 .bookshelf figcaption {
     position: relative;
     top: 100%;
-    padding: 0 2em;
+    padding: 0  5em;
     text-align: center;
 }
 
@@ -318,7 +319,7 @@ body {
 .page-layout-1 h3 {
     text-align: center;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2.7em;
     font-family: "Sacramento", serif;
 }
 
@@ -328,7 +329,7 @@ body {
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.7em;
     font-family: "Six Caps", sans-serif;
     line-height: 1;
 }
