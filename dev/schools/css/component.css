@@ -380,27 +380,39 @@ body {
 }
 
 .qubit{
-    .page-layout-3 ;
-    background:url(../img/qubitin.jpg);
-    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background:url(../img/qubitin.jpg) no-repeat top left;
+    background-size: cover;
 }
 
 .diseno{
-    .page-layout-3 ;
-    background:url(../img/smbs2.jpg);
-    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background:url(../img/smbs.jpg) no-repeat top left;
+    background-size: cover;
 }
 
 .vitness{
-    .page-layout-3 ;
-    background:url(../img/law2.jpg);
-    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background:url(../img/lawin.jpg) no-repeat top left;
+    background-size: cover;
 }
 
 .tykun{
-    .page-layout-3 ;
-    background:url(../img/tykun.jpg);
-    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background:url(../img/busin.jpg) no-repeat top left;
+    background-size: cover;
 }
 
 .page-layout-3 div { padding: 10% }
