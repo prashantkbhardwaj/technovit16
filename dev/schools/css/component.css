@@ -381,7 +381,7 @@ body {
 
 .qubit{
     .page-layout-3 ;
-    background:url(../img/cover9.svg);
+    background:url(../img/qubitin.jpg);
     background-repeat: no-repeat;
 }
 
@@ -393,13 +393,13 @@ body {
 
 .vitness{
     .page-layout-3 ;
-    background:url(../img/cover7.svg);
+    background:url(../img/law2.jpg);
     background-repeat: no-repeat;
 }
 
 .tykun{
     .page-layout-3 ;
-    background:url(../img/cover3.svg);
+    background:url(../img/tykun.jpg);
     background-repeat: no-repeat;
 }
 
