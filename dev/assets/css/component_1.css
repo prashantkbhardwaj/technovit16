@@ -11,7 +11,7 @@
 
 .demo-1 .large-header {
 	position: relative;
-	background-image: url('../img/themepage.png');
+	/*background-image: url('../img/themepage.png');*/
 	z-index: 1 !important;
 }
 
